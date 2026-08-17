@@ -168,3 +168,5 @@ Some links may become referral links; they never affect what the data says. Corr
 MIT
 
 Contributions need a sign-off: see [CLA.md](CLA.md).
+
+Data under `data/` is licensed separately from the code — see [DATA_LICENSE.md](DATA_LICENSE.md).
