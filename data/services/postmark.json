@@ -1,0 +1,32 @@
+{
+  "id": "postmark",
+  "name": "Postmark",
+  "category": "email",
+  "tags": [
+    "ai-stack",
+    "transactional-email",
+    "api"
+  ],
+  "url": "https://postmarkapp.com",
+  "pricing_url": "https://postmarkapp.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Emails",
+      "limit": "100/month",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "45-day message retention",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://postmarkapp.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Free Developer tier, no expiration."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "upstash",
+  "name": "Upstash Redis",
+  "category": "database",
+  "tags": [
+    "redis",
+    "kv",
+    "cache"
+  ],
+  "url": "https://upstash.com",
+  "pricing_url": "https://upstash.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Commands",
+      "limit": "500,000 commands/month",
+      "notes": "Free plan monthly command quota; max 10,000 commands/second"
+    },
+    {
+      "resource": "Data size",
+      "limit": "256 MB",
+      "notes": "Per free database"
+    },
+    {
+      "resource": "Bandwidth",
+      "limit": "10 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "Databases",
+      "limit": "1 free database",
+      "notes": "Free plan is limited to a single Redis database"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://upstash.com/pricing",
+    "https://upstash.com/docs/redis/overall/pricing",
+    "https://upstash.com/pricing/redis"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (not a trial), positioned for prototypes/hobby projects. No credit card needed to sign up; per official FAQ, entering a credit card upgrades the database to the pay-as-you-go plan. No sleep/idle shutdown behavior for Redis databases. Limits verified on official pricing page and docs on 2026-07-03. upstash.com/pricing now redirects to /pricing/redis (2026-08-15)."
+}

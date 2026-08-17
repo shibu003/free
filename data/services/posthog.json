@@ -1,0 +1,38 @@
+{
+  "id": "posthog",
+  "name": "PostHog",
+  "category": "observability",
+  "tags": [
+    "ai-stack",
+    "product-analytics",
+    "feature-flags",
+    "session-replay"
+  ],
+  "url": "https://posthog.com",
+  "pricing_url": "https://posthog.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Product analytics",
+      "limit": "1M events/month",
+      "notes": ""
+    },
+    {
+      "resource": "Session replay",
+      "limit": "5,000 recordings/month",
+      "notes": ""
+    },
+    {
+      "resource": "Feature flags",
+      "limit": "1M requests/month",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://posthog.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Free monthly volume is retained even after upgrading to pay-as-you-go."
+}

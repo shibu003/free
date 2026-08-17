@@ -1,0 +1,92 @@
+{
+  "id": "cloudflare-workers",
+  "name": "Cloudflare Workers",
+  "category": "compute",
+  "tags": [
+    "serverless",
+    "edge",
+    "kv",
+    "sqlite",
+    "object-storage",
+    "s3"
+  ],
+  "url": "https://workers.cloudflare.com/",
+  "pricing_url": "https://developers.cloudflare.com/workers/platform/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Worker requests",
+      "limit": "100,000 requests/day",
+      "notes": "Free plan; daily limit resets at 00:00 UTC"
+    },
+    {
+      "resource": "CPU time",
+      "limit": "10 ms/invocation",
+      "notes": "Wall-clock time is not billed, only CPU time is limited"
+    },
+    {
+      "resource": "Static assets (Workers/Pages)",
+      "limit": "Unlimited requests",
+      "notes": "Requests to static assets are free and unlimited; Pages Functions bill as Workers"
+    },
+    {
+      "resource": "KV reads",
+      "limit": "100,000 reads/day",
+      "notes": ""
+    },
+    {
+      "resource": "KV writes",
+      "limit": "1,000 writes/day",
+      "notes": "Deletes and list operations also 1,000/day each"
+    },
+    {
+      "resource": "KV storage",
+      "limit": "1 GB total",
+      "notes": ""
+    },
+    {
+      "resource": "D1 rows read",
+      "limit": "5 million rows/day",
+      "notes": ""
+    },
+    {
+      "resource": "D1 rows written",
+      "limit": "100,000 rows/day",
+      "notes": ""
+    },
+    {
+      "resource": "D1 storage",
+      "limit": "5 GB total",
+      "notes": ""
+    },
+    {
+      "resource": "R2 storage",
+      "limit": "10 GB-month/month",
+      "notes": "Standard storage class only; not Infrequent Access"
+    },
+    {
+      "resource": "R2 Class A operations",
+      "limit": "1 million requests/month",
+      "notes": ""
+    },
+    {
+      "resource": "R2 Class B operations",
+      "limit": "10 million requests/month",
+      "notes": ""
+    },
+    {
+      "resource": "R2 egress",
+      "limit": "Free (unlimited)",
+      "notes": "Zero egress fees on all plans"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://developers.cloudflare.com/workers/platform/pricing/",
+    "https://developers.cloudflare.com/r2/pricing/",
+    "https://community.cloudflare.com/t/if-i-want-to-use-cloudflare-r2-i-have-to-link-a-payment-method-i-suggest-not-doin/887578"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (not a trial, no credits). Workers/KV/D1/Pages need no credit card, but enabling R2 requires adding a payment method even for its free tier (no charge unless limits exceeded). On Free plan, Workers stop serving (or fail open/closed per config) after the 100k/day request limit; daily limits reset at UTC midnight. Pages Functions are billed as Workers under the same limits."
+}

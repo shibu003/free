@@ -1,0 +1,124 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "category": "hosting",
+  "tags": [
+    "nextjs",
+    "serverless",
+    "static-hosting",
+    "edge"
+  ],
+  "url": "https://vercel.com",
+  "pricing_url": "https://vercel.com/docs/plans/hobby",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Fast Data Transfer (bandwidth)",
+      "limit": "100 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "Function Invocations",
+      "limit": "1,000,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Functions Active CPU",
+      "limit": "4 CPU-hours/month",
+      "notes": ""
+    },
+    {
+      "resource": "Functions Provisioned Memory",
+      "limit": "360 GB-hrs/month",
+      "notes": ""
+    },
+    {
+      "resource": "Edge Requests",
+      "limit": "1,000,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Function max duration",
+      "limit": "300 seconds (5 min)",
+      "notes": ""
+    },
+    {
+      "resource": "Deployments",
+      "limit": "100/day",
+      "notes": ""
+    },
+    {
+      "resource": "Projects",
+      "limit": "200",
+      "notes": ""
+    },
+    {
+      "resource": "Image Transformations",
+      "limit": "5,000/month",
+      "notes": "Plus 300K image cache reads and 100K cache writes/month"
+    },
+    {
+      "resource": "Blob Storage",
+      "limit": "1 GB/month",
+      "notes": "10 GB/month blob data transfer; 10K simple + 2K advanced operations/month"
+    },
+    {
+      "resource": "Fast Origin Transfer",
+      "limit": "10 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "ISR Reads",
+      "limit": "1,000,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Edge Config Reads",
+      "limit": "100,000/month",
+      "notes": "Plus 100 writes/month. Docs now call this Global Config (Global Config Reads First 100,000 / Global Config Writes First 100)"
+    },
+    {
+      "resource": "Web Analytics Events",
+      "limit": "50,000/month",
+      "notes": "1 month of data retention"
+    },
+    {
+      "resource": "Speed Insights",
+      "limit": "10,000 events/month, 1 project",
+      "notes": ""
+    },
+    {
+      "resource": "Sandbox Active CPU",
+      "limit": "5 hours/month",
+      "notes": "Plus 420 GB-hrs sandbox provisioned memory/month"
+    },
+    {
+      "resource": "Domains per project",
+      "limit": "50",
+      "notes": ""
+    },
+    {
+      "resource": "Build machine",
+      "limit": "2 vCPUs, 8 GB memory, 32 GB disk",
+      "notes": ""
+    },
+    {
+      "resource": "Runtime Logs",
+      "limit": "1 hour retention",
+      "notes": ""
+    },
+    {
+      "resource": "Workflow Events",
+      "limit": "50,000/month",
+      "notes": "Plus 1 GB workflow data written"
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://vercel.com/pricing",
+    "https://vercel.com/docs/plans/hobby"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (\"free forever\"), not a trial. Non-commercial/personal use only per fair-use guidelines. No billing cycle: exceeding a limit pauses that feature for up to 30 days (Web Analytics resumes after 7 days). No team collaboration or email support. Sign-up is via Git provider/email; official pages did not explicitly state whether a credit card is required (commonly reported as not required, but unverified on vendor pages today). 2026-08-15: 'Edge Config' is now called 'Global Config' in the Hobby docs (100,000 reads / 100 writes unchanged)."
+}

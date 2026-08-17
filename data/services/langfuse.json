@@ -1,0 +1,38 @@
+{
+  "id": "langfuse",
+  "name": "Langfuse",
+  "category": "observability",
+  "tags": [
+    "ai-stack",
+    "llm-observability",
+    "tracing",
+    "evals"
+  ],
+  "url": "https://langfuse.com",
+  "pricing_url": "https://langfuse.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Units",
+      "limit": "50,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "30-day data access",
+      "notes": ""
+    },
+    {
+      "resource": "Users",
+      "limit": "2",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://langfuse.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Hobby plan; all platform features with limits."
+}

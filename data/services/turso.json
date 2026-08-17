@@ -1,0 +1,52 @@
+{
+  "id": "turso",
+  "name": "Turso",
+  "category": "database",
+  "tags": [
+    "sqlite",
+    "libsql",
+    "sql"
+  ],
+  "url": "https://turso.tech",
+  "pricing_url": "https://turso.tech/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Databases",
+      "limit": "100 databases",
+      "notes": ""
+    },
+    {
+      "resource": "Storage",
+      "limit": "5 GB total",
+      "notes": "Overage on paid plans: $0.75/GB"
+    },
+    {
+      "resource": "Rows read",
+      "limit": "500,000,000 rows/month",
+      "notes": ""
+    },
+    {
+      "resource": "Rows written",
+      "limit": "10,000,000 rows/month",
+      "notes": ""
+    },
+    {
+      "resource": "Syncs",
+      "limit": "3 GB/month",
+      "notes": "Sync traffic for embedded replicas/offline sync"
+    },
+    {
+      "resource": "Point-in-time restore",
+      "limit": "1 day retention",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://turso.tech/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (no time limit), no credit card required per official page (\"Start free today, no credit card required\"). Community support only; no teams, audit logs, SSO, or compliance features on free. Turso restructured plans when it introduced the Developer plan ($4.99/mo) — free tier limits above reflect the current post-change plan. Databases can be created via API (good for per-tenant DB patterns) within the 100-database cap."
+}

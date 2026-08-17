@@ -1,0 +1,52 @@
+{
+  "id": "resend",
+  "name": "Resend",
+  "category": "email",
+  "tags": [
+    "ai-stack",
+    "transactional-email",
+    "api"
+  ],
+  "url": "https://resend.com",
+  "pricing_url": "https://resend.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Emails",
+      "limit": "3,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Daily cap",
+      "limit": "100 emails/day",
+      "notes": ""
+    },
+    {
+      "resource": "Domains",
+      "limit": "1",
+      "notes": ""
+    },
+    {
+      "resource": "Marketing contacts",
+      "limit": "1,000",
+      "notes": "2026-08-15 unverifiable: pricing page's Marketing-emails tab renders client-side; no contact count for the Free plan is present in the SSR HTML, RSC payload, or docs (Audiences/Contacts .md); FAQ only says marketing plans are 'limited by the number of contacts you have'"
+    },
+    {
+      "resource": "Automation runs",
+      "limit": "10,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "30-day data",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://resend.com/pricing"
+  ],
+  "confidence": "medium",
+  "notes": "2026-08-15: pricing page no longer shows a Free-plan marketing-contact count in server-rendered HTML (Marketing tab is client-rendered); the 1,000-contact figure is unverified as of this date."
+}

@@ -1,0 +1,41 @@
+name: check
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 6 * * 1' # weekly, Monday 06:00 UTC
+permissions:
+  contents: read
+  issues: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: node lib.js validate
+      - run: node --test
+  stale:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: flag stale records
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STALE=$(node lib.js stale 60)
+          if [ -n "$STALE" ]; then
+            if [ -z "$(gh issue list --label stale-data --state open --json number --jq '.[0]')" ]; then
+              gh label create stale-data --color D93F0B --force
+              gh issue create --title "Stale free-tier data (>60 days)" \
+                --label stale-data \
+                --body "These records need re-verification against official pricing pages:"$'\n\n```\n'"$STALE"$'\n```'
+            fi
+          fi

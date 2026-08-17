@@ -1,0 +1,60 @@
+{
+  "id": "render",
+  "name": "Render",
+  "category": "compute",
+  "tags": [
+    "postgres",
+    "redis",
+    "docker"
+  ],
+  "url": "https://render.com",
+  "pricing_url": "https://render.com/docs/free",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Web service instance hours",
+      "limit": "750 instance hours/workspace/calendar month",
+      "notes": "Free instance type; spins down after 15 min of inactivity, ~1 min cold start on next request; ephemeral filesystem (changes lost on spin-down); no persistent disk, no scaling beyond 1 instance, no SSH"
+    },
+    {
+      "resource": "Free instance size",
+      "limit": "512 MB RAM / 0.1 CPU",
+      "notes": "Now printed on the official pricing page compute table (Web Services: Free $0/month 512 MB 0.1)"
+    },
+    {
+      "resource": "Static sites",
+      "limit": "Free to deploy (Hobby workspace capped at 25 services total)",
+      "notes": "Static sites are free but count toward the Hobby workspace 'Maximum services 25' cap and monthly bandwidth / build-pipeline minutes"
+    },
+    {
+      "resource": "Bandwidth (outbound)",
+      "limit": "5 GB/month (Hobby workspace included allotment)",
+      "notes": "Reduced from 100 GB (2026-07-03) to 5 GB; then $0.15 per GB. Pro 25 GB, Scale 1 TB. Exceeding it without a payment method suspends Free services for the rest of the month"
+    },
+    {
+      "resource": "PostgreSQL (free)",
+      "limit": "1 GB storage, expires 30 days after creation",
+      "notes": "Time-limited, not perpetual: 14-day grace period to upgrade before deletion; one free DB per workspace; no backups or connection pooling"
+    },
+    {
+      "resource": "Key Value (Redis-compatible)",
+      "limit": "1 free instance/workspace",
+      "notes": "In-memory only; data lost on restart, no disk persistence"
+    },
+    {
+      "resource": "Custom domains",
+      "limit": "2 included on Hobby workspace",
+      "notes": "Additional domains $0.25/month each; managed TLS included"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://render.com/docs/free",
+    "https://render.com/articles/platforms-with-a-real-free-tier-for-developers-in-2026",
+    "https://render.com/pricing",
+    "https://render.com/docs/web-services"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier under the Hobby workspace plan (except free Postgres, which is a 30-day time-limited instance). Key gotchas: free web services sleep after 15 min idle with ~1 min cold start and lose all filesystem changes; 750 instance hours/month is per workspace, enough for one always-on service; build-pipeline minutes and bandwidth are shared workspace quotas and overage suspends free services if no card is on file. 2026-08-15: Hobby included bandwidth is now 5 GB/month (was 100 GB on 2026-07-03), then $0.15/GB; Hobby workspace is capped at 25 services; Free instance spec (512 MB / 0.1 CPU) is now printed on the official pricing page. No credit card required to sign up (stated on official Render article, 2026)."
+}

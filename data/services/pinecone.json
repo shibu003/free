@@ -1,0 +1,48 @@
+{
+  "id": "pinecone",
+  "name": "Pinecone",
+  "category": "vector",
+  "tags": [
+    "ai-stack",
+    "vector-db",
+    "embeddings",
+    "serverless"
+  ],
+  "url": "https://www.pinecone.io",
+  "pricing_url": "https://www.pinecone.io/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Storage",
+      "limit": "Up to 2 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Indexes",
+      "limit": "Up to 5 indexes",
+      "notes": ""
+    },
+    {
+      "resource": "Write units",
+      "limit": "2M/month",
+      "notes": ""
+    },
+    {
+      "resource": "Read units",
+      "limit": "1M/month",
+      "notes": ""
+    },
+    {
+      "resource": "Egress",
+      "limit": "1 GB/month",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.pinecone.io/pricing/"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual Starter (free) plan, serverless only."
+}

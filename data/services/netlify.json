@@ -1,0 +1,74 @@
+{
+  "id": "netlify",
+  "name": "Netlify Free",
+  "category": "hosting",
+  "tags": [
+    "static-hosting",
+    "serverless",
+    "forms"
+  ],
+  "url": "https://www.netlify.com/",
+  "pricing_url": "https://www.netlify.com/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Credits",
+      "limit": "300 credits/month",
+      "notes": "Hard limit; no overage purchase or auto-recharge on Free. Credits are the single metered currency for all usage."
+    },
+    {
+      "resource": "Bandwidth",
+      "limit": "20 credits per GB (~15 GB/month if used only on bandwidth)",
+      "notes": "Drawn from the 300-credit pool"
+    },
+    {
+      "resource": "Production deploys",
+      "limit": "15 credits per production deploy (~20 deploys/month if used only on deploys)",
+      "notes": "Deploy Previews and branch deploys are free (0 credits)"
+    },
+    {
+      "resource": "Compute (functions)",
+      "limit": "10 credits per GB-hour",
+      "notes": "Serverless functions/compute billed from the credit pool"
+    },
+    {
+      "resource": "Web requests",
+      "limit": "2 credits per 10,000 requests",
+      "notes": "Drawn from the credit pool"
+    },
+    {
+      "resource": "AI inference",
+      "limit": "180 credits per USD of AI model usage",
+      "notes": "Drawn from the credit pool"
+    },
+    {
+      "resource": "Form submissions",
+      "limit": "Unlimited",
+      "notes": "Free, not metered in credits"
+    },
+    {
+      "resource": "Concurrent builds",
+      "limit": "1",
+      "notes": ""
+    },
+    {
+      "resource": "Projects (sites)",
+      "limit": "500 projects",
+      "notes": "1 team owner; team members not available on Free"
+    },
+    {
+      "resource": "Netlify Database",
+      "limit": "3 databases, 20 active branches, 7-day backup retention",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.netlify.com/pricing/",
+    "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/how-credits-work/",
+    "https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier, but Netlify replaced its legacy fixed-quota Free plan (100 GB bandwidth / 300 build minutes) with a credit-based model (300 credits/month, further updated April 2026). Major gotcha: when the 300 monthly credits are exhausted, ALL web projects on the team are paused and visitors see a 'Site not available' page until the next monthly cycle; Free plan cannot buy extra credits. 300 credits also means only ~20 production deploys/month if credits go solely to deploys. Custom domains + SSL, unlimited deploy previews, and unlimited form submissions remain free. Paid credit-based plans (Personal/Pro) require a card on file; Free does not."
+}

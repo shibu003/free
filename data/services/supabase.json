@@ -1,0 +1,64 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "category": "database",
+  "tags": [
+    "postgres",
+    "sql",
+    "auth",
+    "baas"
+  ],
+  "url": "https://supabase.com",
+  "pricing_url": "https://supabase.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Database size",
+      "limit": "500 MB per project",
+      "notes": "Shared CPU, 500 MB RAM instance"
+    },
+    {
+      "resource": "File storage",
+      "limit": "1 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Egress",
+      "limit": "5 GB/month",
+      "notes": "Plus 5 GB cached egress"
+    },
+    {
+      "resource": "Monthly active users (Auth)",
+      "limit": "50,000 MAU",
+      "notes": ""
+    },
+    {
+      "resource": "Edge Function invocations",
+      "limit": "500,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Realtime concurrent connections",
+      "limit": "200 peak concurrent",
+      "notes": ""
+    },
+    {
+      "resource": "Realtime messages",
+      "limit": "2,000,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Active projects",
+      "limit": "2 active projects",
+      "notes": "Additional paused projects allowed"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://supabase.com/pricing",
+    "https://supabase.com/docs/guides/platform/billing-faq"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (not a trial). Gotcha: free projects are paused after 1 week of inactivity and must be manually restored; limit of 2 active projects. Verified on official pricing page 2026-07-03."
+}

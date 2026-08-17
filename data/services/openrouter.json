@@ -1,0 +1,38 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "category": "llm-api",
+  "tags": [
+    "llm",
+    "ai",
+    "router"
+  ],
+  "url": "https://openrouter.ai",
+  "pricing_url": "https://openrouter.ai/docs/api/reference/limits",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Free-model requests (no credits purchased)",
+      "limit": "50 requests/day",
+      "notes": "Applies to models with IDs ending in :free when lifetime credit purchases are under $10"
+    },
+    {
+      "resource": "Free-model requests (after buying $10+ credits)",
+      "limit": "1,000 requests/day",
+      "notes": "One-time purchase of at least 10 credits (~$10) raises the daily :free-model cap permanently"
+    },
+    {
+      "resource": "Free-model request rate",
+      "limit": "20 requests/minute",
+      "notes": "Per-minute cap for all :free model variants regardless of credit balance"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://openrouter.ai/docs/api/reference/limits",
+    "https://openrouter.ai/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier, not a trial: :free model variants are usable indefinitely without payment, but only at 50 req/day until you buy $10+ of credits (then 1,000 req/day). Free-model availability fluctuates — models are rotated in/out by providers, and capacity is governed globally so extra accounts do not raise limits. Accounts with a negative balance can get 402 errors even on free models. No credit card needed to sign up or use :free models."
+}

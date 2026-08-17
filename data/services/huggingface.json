@@ -1,0 +1,40 @@
+{
+  "id": "huggingface",
+  "name": "Hugging Face",
+  "category": "llm-api",
+  "tags": [
+    "ai-stack",
+    "llm",
+    "inference",
+    "spaces",
+    "models"
+  ],
+  "url": "https://huggingface.co",
+  "pricing_url": "https://huggingface.co/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Inference Providers credits",
+      "limit": "$0.10/month",
+      "notes": "subject to change; PRO gets $2/month"
+    },
+    {
+      "resource": "Spaces hardware",
+      "limit": "CPU Basic 2 vCPU / 16 GB RAM, free",
+      "notes": ""
+    },
+    {
+      "resource": "Spaces GPU",
+      "limit": "ZeroGPU available free",
+      "notes": "dynamic Nvidia GPU (page now lists Nvidia RTX Pro 6000 Blackwell, up to 96 GB VRAM)"
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://huggingface.co/pricing",
+    "https://huggingface.co/docs/inference-providers/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

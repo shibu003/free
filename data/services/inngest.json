@@ -1,0 +1,48 @@
+{
+  "id": "inngest",
+  "name": "Inngest",
+  "category": "compute",
+  "tags": [
+    "ai-stack",
+    "background-jobs",
+    "durable-workflows",
+    "queues"
+  ],
+  "url": "https://www.inngest.com",
+  "pricing_url": "https://www.inngest.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Executions",
+      "limit": "50,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Concurrency",
+      "limit": "5 concurrent",
+      "notes": ""
+    },
+    {
+      "resource": "Events",
+      "limit": "500,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Span data",
+      "limit": "500 MB/month",
+      "notes": ""
+    },
+    {
+      "resource": "Realtime",
+      "limit": "50 connections",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.inngest.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

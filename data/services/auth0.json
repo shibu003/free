@@ -1,0 +1,43 @@
+{
+  "id": "auth0",
+  "name": "Auth0",
+  "category": "auth",
+  "tags": [
+    "ai-stack",
+    "auth",
+    "oauth",
+    "sso"
+  ],
+  "url": "https://auth0.com",
+  "pricing_url": "https://auth0.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Monthly active users",
+      "limit": "25,000",
+      "notes": ""
+    },
+    {
+      "resource": "Social connections",
+      "limit": "Unlimited",
+      "notes": ""
+    },
+    {
+      "resource": "Enterprise connections",
+      "limit": "1",
+      "notes": ""
+    },
+    {
+      "resource": "Organizations",
+      "limit": "5",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://auth0.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Permanent free tier, no trial expiration."
+}

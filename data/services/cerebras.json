@@ -1,0 +1,49 @@
+{
+  "id": "cerebras",
+  "name": "Cerebras Cloud",
+  "category": "llm-api",
+  "tags": [
+    "ai-stack",
+    "llm",
+    "inference",
+    "fast"
+  ],
+  "url": "https://www.cerebras.ai",
+  "pricing_url": "https://www.cerebras.ai/pricing",
+  "has_free_tier": false,
+  "free_tier": [
+    {
+      "resource": "Requests",
+      "limit": "5/min",
+      "notes": ""
+    },
+    {
+      "resource": "Tokens",
+      "limit": "30,000/min",
+      "notes": ""
+    },
+    {
+      "resource": "Tokens (daily)",
+      "limit": "1,000,000/day",
+      "notes": ""
+    },
+    {
+      "resource": "Models",
+      "limit": "All Cerebras-powered models",
+      "notes": ""
+    },
+    {
+      "resource": "Trial credits",
+      "limit": "$5 one-time, expires 30 days after grant",
+      "notes": "Requires a verified payment method to receive; after credits are used/expired, API and Playground access stop until credits are purchased"
+    }
+  ],
+  "credit_card_required": true,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.cerebras.ai/pricing",
+    "https://inference-docs.cerebras.ai/support/rate-limits"
+  ],
+  "confidence": "high",
+  "notes": "Free Trial only, NOT a permanent free tier (docs FAQ 2026-08-15: 'Is there a permanently free tier? No. The Free Trial is time- and credit-bounded: $5 in credits that expire 30 days after they're granted'). $5 credits are granted only after adding a verified payment method; without one, Playground/API access stay inactive. Free Trial per-model limits (gpt-oss-120b, zai-glm-4.7, gemma-4-31b): 5 RPM / 30K TPM / 1M TPH / 1M TPD. Developer (pay-as-you-go, from $10) removes hourly/daily caps. 2026-08-15: no permanent free tier (FAQ: \"Is there a permanently free tier? No\"); $5 trial credits require a verified payment method and expire in 30 days — listed as trial-only like fly-io."
+}

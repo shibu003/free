@@ -1,0 +1,67 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "category": "database",
+  "tags": [
+    "postgres",
+    "sql",
+    "serverless"
+  ],
+  "url": "https://neon.com",
+  "pricing_url": "https://neon.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Compute",
+      "limit": "100 CU-hours/project/month",
+      "notes": "Autoscaling up to 2 CU (8 GB RAM max); compute suspends when the monthly allowance is exhausted until the next billing month"
+    },
+    {
+      "resource": "Storage",
+      "limit": "0.5 GB/project",
+      "notes": ""
+    },
+    {
+      "resource": "Projects",
+      "limit": "100 projects",
+      "notes": ""
+    },
+    {
+      "resource": "Branches",
+      "limit": "10 branches/project",
+      "notes": ""
+    },
+    {
+      "resource": "Data transfer (egress)",
+      "limit": "5 GB public network egress/month",
+      "notes": ""
+    },
+    {
+      "resource": "Snapshots",
+      "limit": "1 manual snapshot/project",
+      "notes": ""
+    },
+    {
+      "resource": "History (point-in-time restore)",
+      "limit": "6 hours (1 GB limit)",
+      "notes": ""
+    },
+    {
+      "resource": "Auth monthly active users",
+      "limit": "60,000 MAU",
+      "notes": "Managed Better Auth (formerly listed as Neon Auth): 'On the Free plan, Managed Better Auth is included for up to 60,000 MAU.'"
+    },
+    {
+      "resource": "Monitoring retention",
+      "limit": "1 day",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://neon.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier, not a trial; no credit card required. If the monthly 100 CU-hour compute allowance is reached, compute is suspended until the next billing month (upgrade resumes immediately). Free-plan computes also auto-suspend (scale to zero) when idle. Limits are per-project on compute/storage but capped at 100 projects. 2026-08-15: 'Neon Auth' is now listed as 'Managed Better Auth' (60,000 MAU on Free unchanged)."
+}

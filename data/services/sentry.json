@@ -1,0 +1,57 @@
+{
+  "id": "sentry",
+  "name": "Sentry",
+  "category": "observability",
+  "tags": [
+    "ai-stack",
+    "error-tracking",
+    "apm"
+  ],
+  "url": "https://sentry.io",
+  "pricing_url": "https://sentry.io/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Errors",
+      "limit": "5,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Spans (tracing)",
+      "limit": "5M/month",
+      "notes": ""
+    },
+    {
+      "resource": "Replays",
+      "limit": "50/month",
+      "notes": ""
+    },
+    {
+      "resource": "Cron monitors",
+      "limit": "1",
+      "notes": ""
+    },
+    {
+      "resource": "Attachments",
+      "limit": "1 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Seats",
+      "limit": "1 user",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "30-day",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://sentry.io/pricing/"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

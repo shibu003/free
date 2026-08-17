@@ -1,0 +1,84 @@
+{
+  "id": "deno-deploy",
+  "name": "Deno Deploy",
+  "category": "compute",
+  "tags": [
+    "serverless",
+    "edge",
+    "kv",
+    "typescript"
+  ],
+  "url": "https://deno.com/deploy",
+  "pricing_url": "https://deno.com/deploy/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Requests",
+      "limit": "1,000,000 requests/month",
+      "notes": ""
+    },
+    {
+      "resource": "Egress bandwidth",
+      "limit": "20 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "CPU time",
+      "limit": "15 hours/month",
+      "notes": ""
+    },
+    {
+      "resource": "Memory time",
+      "limit": "350 GB-hours/month",
+      "notes": ""
+    },
+    {
+      "resource": "KV storage",
+      "limit": "1 GiB",
+      "notes": ""
+    },
+    {
+      "resource": "KV read units",
+      "limit": "450,000 reads/month",
+      "notes": "4 KiB per read unit"
+    },
+    {
+      "resource": "KV write units",
+      "limit": "300,000 writes/month",
+      "notes": "1 KiB per write unit"
+    },
+    {
+      "resource": "Volume storage",
+      "limit": "1 GiB",
+      "notes": ""
+    },
+    {
+      "resource": "Active deployments",
+      "limit": "20 max",
+      "notes": "60 deployments/hour"
+    },
+    {
+      "resource": "Custom domains",
+      "limit": "50 per organization",
+      "notes": "No wildcard subdomains on free plan"
+    },
+    {
+      "resource": "Team members",
+      "limit": "5",
+      "notes": ""
+    },
+    {
+      "resource": "Log retention",
+      "limit": "1 day",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://deno.com/deploy/pricing",
+    "https://docs.deno.com/deploy/pricing_and_limits/"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (not a trial; no time limit or one-time credits). If a free organization exceeds its included requests, bandwidth, CPU or memory time, applications are paused until the next billing cycle. Free plan lacks wildcard subdomains, email support, and SLA; support is community Discord only. Paid plans: Pro $20/mo, Builder $200/mo. Numbers reflect the current (2026) pricing page; older third-party articles cite different limits (e.g. 100 GB bandwidth) that no longer match the official page."
+}

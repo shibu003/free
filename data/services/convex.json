@@ -1,0 +1,43 @@
+{
+  "id": "convex",
+  "name": "Convex",
+  "category": "database",
+  "tags": [
+    "ai-stack",
+    "backend",
+    "reactive-db",
+    "serverless"
+  ],
+  "url": "https://www.convex.dev",
+  "pricing_url": "https://www.convex.dev/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Function calls",
+      "limit": "1M/month",
+      "notes": ""
+    },
+    {
+      "resource": "Database storage",
+      "limit": "0.5 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Bandwidth",
+      "limit": "1 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "Deployments",
+      "limit": "40",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.convex.dev/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

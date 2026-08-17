@@ -1,0 +1,42 @@
+{
+  "id": "tigris",
+  "name": "Tigris",
+  "category": "storage",
+  "tags": [
+    "ai-stack",
+    "object-storage",
+    "s3-compatible"
+  ],
+  "url": "https://www.tigrisdata.com",
+  "pricing_url": "https://www.tigrisdata.com/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Storage",
+      "limit": "5 GB standard/month",
+      "notes": ""
+    },
+    {
+      "resource": "Class A ops",
+      "limit": "10,000 PUT/COPY/POST/LIST per month",
+      "notes": ""
+    },
+    {
+      "resource": "Class B ops",
+      "limit": "100,000 GET/other per month",
+      "notes": ""
+    },
+    {
+      "resource": "Egress",
+      "limit": "Free",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.tigrisdata.com/pricing/"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

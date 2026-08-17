@@ -1,0 +1,47 @@
+{
+  "id": "braintrust",
+  "name": "Braintrust",
+  "category": "observability",
+  "tags": [
+    "ai-stack",
+    "llm-evals",
+    "llm-observability"
+  ],
+  "url": "https://www.braintrust.dev",
+  "pricing_url": "https://www.braintrust.dev/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Scores",
+      "limit": "10,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Processed data",
+      "limit": "1 GB/month",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "14-day",
+      "notes": ""
+    },
+    {
+      "resource": "Seats",
+      "limit": "Unlimited users",
+      "notes": ""
+    },
+    {
+      "resource": "Credits",
+      "limit": "$10 included",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.braintrust.dev/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

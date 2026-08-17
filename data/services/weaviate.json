@@ -1,0 +1,52 @@
+{
+  "id": "weaviate",
+  "name": "Weaviate Cloud",
+  "category": "vector",
+  "tags": [
+    "ai-stack",
+    "vector-db",
+    "embeddings"
+  ],
+  "url": "https://weaviate.io",
+  "pricing_url": "https://weaviate.io/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Memory",
+      "limit": "1 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Disk",
+      "limit": "10 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Objects",
+      "limit": "100,000 max",
+      "notes": ""
+    },
+    {
+      "resource": "Collections",
+      "limit": "1 collection, up to 3 tenants",
+      "notes": ""
+    },
+    {
+      "resource": "Embeddings",
+      "limit": "2,000 requests/day",
+      "notes": ""
+    },
+    {
+      "resource": "Query Agent",
+      "limit": "1,000 requests/month",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://weaviate.io/pricing"
+  ],
+  "confidence": "high",
+  "notes": "\"Always free\" sandbox, not a time-limited trial."
+}

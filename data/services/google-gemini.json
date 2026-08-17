@@ -1,0 +1,39 @@
+{
+  "id": "google-gemini",
+  "name": "Google Gemini API",
+  "category": "llm-api",
+  "tags": [
+    "llm",
+    "ai",
+    "gemini",
+    "embeddings"
+  ],
+  "url": "https://ai.google.dev/",
+  "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "API tokens (input & output)",
+      "limit": "Free on eligible models (Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash / Flash-Lite, 3.1 Flash-Lite, 3 Flash Preview, 2.5 Pro / Flash / Flash-Lite, 2.0 Flash / Flash-Lite (deprecated), Live/TTS/Native Audio previews, Lyria 3, Gemini Embedding / Embedding 2, Robotics ER previews, Gemma 4), subject to per-model rate limits",
+      "notes": "Official docs still do not publish exact free-tier RPM/TPM/RPD numbers ('Rate limits ... can be viewed in Google AI Studio'); Pro Preview / Image (Nano Banana) / Omni / Computer Use models show 'Not available' on the Free Tier. Model list re-verified 2026-08-15 from the per-model 'Free Tier' column."
+    },
+    {
+      "resource": "Google Search grounding",
+      "limit": "500 requests/day (shared between Flash and Flash-Lite)",
+      "notes": "Free allowance for the Grounding with Google Search tool on Gemini 2.5 Flash / Flash-Lite; Gemini 3.x models show 'Not available' on the Free Tier (5,000 free/month is paid-tier only)"
+    },
+    {
+      "resource": "Google AI Studio (web UI)",
+      "limit": "Free of charge in all available regions",
+      "notes": "Interactive prompting in AI Studio itself is not billed"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/rate-limits"
+  ],
+  "confidence": "medium",
+  "notes": "Perpetual free tier, not a trial or credits — defined as usage on a project without paid billing ('Active project or free trial' qualification; spend-based limits N/A on free tier). No credit card needed: an API key from AI Studio with a Google account suffices (official page does not state this explicitly, but free tier is the default no-billing state). Gotchas: on the free tier your content/prompts are used to improve Google products (paid tier is not); daily quotas reset at midnight Pacific; limits are per Google Cloud project, not per API key; exact per-model limits were removed from public docs in 2026 and now only visible in the AI Studio dashboard, and Google has been adjusting them (e.g. Pro free-tier RPD reportedly reduced) — verify in-dashboard before relying on specific numbers. 2026-08-15 re-check: free-tier model list expanded (Gemini 3.7 Flash / 3.6 Flash / Gemma 4 / Embedding 2 / Lyria 3 now 'Free of charge' on the Free Tier); official docs still say rate limits 'can be viewed in Google AI Studio' and publish no free-tier RPM/RPD numbers."
+}

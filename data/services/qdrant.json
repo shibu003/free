@@ -1,0 +1,37 @@
+{
+  "id": "qdrant",
+  "name": "Qdrant Cloud",
+  "category": "vector",
+  "tags": [
+    "ai-stack",
+    "vector-db",
+    "embeddings"
+  ],
+  "url": "https://qdrant.tech",
+  "pricing_url": "https://qdrant.tech/pricing/",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Free cluster",
+      "limit": "1 single-node cluster",
+      "notes": ""
+    },
+    {
+      "resource": "Resources",
+      "limit": "0.5 vCPU / 1 GB RAM / 4 GB disk",
+      "notes": ""
+    },
+    {
+      "resource": "Cloud inference",
+      "limit": "Free with selected models",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://qdrant.tech/pricing/"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free 1 GB cluster (not a trial)."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "fly-io",
+  "name": "Fly.io",
+  "category": "compute",
+  "tags": [
+    "docker",
+    "vm"
+  ],
+  "url": "https://fly.io",
+  "pricing_url": "https://fly.io/docs/about/pricing/",
+  "has_free_tier": false,
+  "free_tier": [],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://fly.io/pricing/",
+    "https://fly.io/docs/about/pricing/",
+    "https://fly.io/docs/about/billing/",
+    "https://fly.io/docs/about/free-trial/"
+  ],
+  "confidence": "high",
+  "notes": "No perpetual free tier for new customers — Fly.io is pure pay-as-you-go and states \"Fly.io no longer offers plans to new customers.\" The legacy free allowances (3x shared-cpu-1x 256MB VMs, 3GB volume storage, 100GB NA/EU outbound) are honored only for organizations that were on the deprecated Hobby/Launch/Scale plans. New signups get a time-limited free trial only: 2 total VM hours OR 7 days of access (whichever comes first), up to 10 machines (max 2 vCPU / 4GB RAM each), 20GB volume storage; trial machines auto-stop after 5 minutes of runtime. No credit card needed to start the trial, but adding a card ends the trial and converts to paid; after trial, apps stop until billing is set up. Ongoing use requires a credit card on file."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "category": "llm-api",
+  "tags": [
+    "ai-stack",
+    "llm",
+    "embeddings",
+    "rerank"
+  ],
+  "url": "https://cohere.com",
+  "pricing_url": "https://cohere.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Chat",
+      "limit": "20 requests/min per model",
+      "notes": ""
+    },
+    {
+      "resource": "Embed",
+      "limit": "2,000 inputs/min",
+      "notes": ""
+    },
+    {
+      "resource": "Rerank",
+      "limit": "10 requests/min",
+      "notes": ""
+    },
+    {
+      "resource": "Monthly cap",
+      "limit": "1,000 API calls/month",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://cohere.com/pricing",
+    "https://docs.cohere.com/docs/rate-limits"
+  ],
+  "confidence": "high",
+  "notes": "Trial API keys are free but non-commercial (testing/dev only, not production)."
+}

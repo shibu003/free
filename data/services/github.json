@@ -1,0 +1,65 @@
+{
+  "id": "github",
+  "name": "GitHub",
+  "category": "ci",
+  "tags": [
+    "ci",
+    "actions",
+    "pages",
+    "static-hosting"
+  ],
+  "url": "https://github.com",
+  "pricing_url": "https://docs.github.com/en/billing/reference/product-usage-included",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Actions minutes",
+      "limit": "2,000 minutes/month",
+      "notes": "Private repos on standard GitHub-hosted runners; unlimited/free for public repos and self-hosted runners. Larger runners always billed."
+    },
+    {
+      "resource": "Actions/Packages artifact storage",
+      "limit": "500 MB",
+      "notes": "Shared between Actions artifacts and GitHub Packages; Actions cache is separately 10 GB per repository."
+    },
+    {
+      "resource": "Codespaces compute",
+      "limit": "120 core hours/month",
+      "notes": "Personal accounts only; e.g. 60 hours on a 2-core machine. Org/enterprise plans include no free Codespaces quota."
+    },
+    {
+      "resource": "Codespaces storage",
+      "limit": "15 GB-month/month",
+      "notes": "Personal accounts only."
+    },
+    {
+      "resource": "Pages site size",
+      "limit": "1 GB per site",
+      "notes": "Pages hosting itself is free; public repos only on the Free plan (private-repo Pages needs Pro+)."
+    },
+    {
+      "resource": "Pages bandwidth",
+      "limit": "100 GB/month (soft limit)",
+      "notes": ""
+    },
+    {
+      "resource": "Pages builds",
+      "limit": "10 builds/hour (soft limit)",
+      "notes": "Does not apply when publishing via a custom GitHub Actions workflow."
+    },
+    {
+      "resource": "Packages data transfer",
+      "limit": "1 GB/month",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://docs.github.com/en/billing/reference/product-usage-included",
+    "https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-actions/about-billing-for-github-actions",
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (GitHub Free plan), not a trial. Actions minutes quota applies only to private repos on standard runners; public repos are free without a minutes cap. Codespaces free quota exists only for personal accounts; unused quota does not roll over, and without a payment method usage stops at the free quota. No credit card needed to sign up for GitHub Free."
+}

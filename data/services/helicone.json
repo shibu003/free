@@ -1,0 +1,43 @@
+{
+  "id": "helicone",
+  "name": "Helicone",
+  "category": "observability",
+  "tags": [
+    "ai-stack",
+    "llm-observability",
+    "proxy",
+    "gateway"
+  ],
+  "url": "https://www.helicone.ai",
+  "pricing_url": "https://www.helicone.ai/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Requests",
+      "limit": "10,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Ingestion rate",
+      "limit": "10 logs/min",
+      "notes": ""
+    },
+    {
+      "resource": "Storage",
+      "limit": "1 GB",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "7-day",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.helicone.ai/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

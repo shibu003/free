@@ -1,0 +1,28 @@
+{
+  "id": "modal",
+  "name": "Modal",
+  "category": "ml-compute",
+  "tags": [
+    "ai-stack",
+    "serverless-gpu",
+    "python",
+    "ml-inference"
+  ],
+  "url": "https://modal.com",
+  "pricing_url": "https://modal.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Compute credits",
+      "limit": "$30/month free",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://modal.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": ""
+}

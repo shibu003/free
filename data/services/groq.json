@@ -1,0 +1,40 @@
+{
+  "id": "groq",
+  "name": "Groq API",
+  "category": "llm-api",
+  "tags": [
+    "llm",
+    "ai",
+    "llama",
+    "inference"
+  ],
+  "url": "https://groq.com",
+  "pricing_url": "https://console.groq.com/docs/rate-limits",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Requests (llama-3.3-70b-versatile)",
+      "limit": "30 requests/min, 1,000 requests/day",
+      "notes": "12,000 tokens/min, 100,000 tokens/day"
+    },
+    {
+      "resource": "Requests (llama-3.1-8b-instant)",
+      "limit": "30 requests/min, 14,400 requests/day",
+      "notes": "6,000 tokens/min, 500,000 tokens/day"
+    },
+    {
+      "resource": "Requests (openai/gpt-oss-120b and gpt-oss-20b)",
+      "limit": "30 requests/min, 1,000 requests/day",
+      "notes": "8,000 tokens/min, 200,000 tokens/day"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://console.groq.com/docs/rate-limits",
+    "https://groq.com/pricing",
+    "https://tokenmix.ai/blog/groq-free-tier-limits-2026"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (not a time-limited trial or one-time credits). Limits are published per model, not one universal bucket; you hit whichever cap (RPM/RPD/TPM/TPD) comes first. Limits apply at the organization level, not per user or API key. Cached tokens do not count toward rate limits. Signup at console.groq.com via email/Google with no credit card (card requirement not stated on official page; corroborated by third-party sources — treat as likely but unofficial). Upgrade path is the paid Developer plan for higher limits."
+}

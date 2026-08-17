@@ -1,0 +1,237 @@
+service_id,resource,old_limit,new_limit,verdict,source_url,evidence_snippet,checked_at
+auth0,Monthly active users,"25,000","25,000",unchanged,https://auth0.com/pricing,"Up to 25,000 monthly active users",2026-08-15
+auth0,Social connections,Unlimited,Unlimited,unchanged,https://auth0.com/pricing,Unlimited Social Connections**,2026-08-15
+auth0,Enterprise connections,1,1,unchanged,https://auth0.com/pricing,1 Enterprise Connection,2026-08-15
+auth0,Organizations,5,5,unchanged,https://auth0.com/pricing,5 Organizations,2026-08-15
+auth0,credit_card_required,False,False,unchanged,https://auth0.com/pricing,No credit card needed / *credit card verification required for custom domains.,2026-08-15
+braintrust,Scores,"10,000/month","10,000/month",unchanged,https://www.braintrust.dev/pricing,"10k scores / 10K / month included then $2.50 per 1,000",2026-08-15
+braintrust,Processed data,1 GB/month,1 GB/month,unchanged,https://www.braintrust.dev/pricing,1 GB processed data / 1 GB / month included then +$4/GB,2026-08-15
+braintrust,Retention,14-day,14-day,unchanged,https://www.braintrust.dev/pricing,14-day retention,2026-08-15
+braintrust,Seats,Unlimited users,Unlimited users,unchanged,https://www.braintrust.dev/pricing,"Unlimited users, projects, datasets, playgrounds, and experiments",2026-08-15
+braintrust,Credits,$10 included,$10 included,unchanged,https://www.braintrust.dev/pricing,$10 credits / month included then token rates (Starter $0/month),2026-08-15
+braintrust,credit_card_required,False,False,unchanged,https://www.braintrust.dev/pricing,"No credit card required. Free usage is included for traces, evals, and your whole team.",2026-08-15
+cerebras,Requests,5/min,5/min,unchanged,https://inference-docs.cerebras.ai/support/rate-limits,Free Trial | Model RPM TPM TPH TPD | gpt-oss-120b 5 30K 1M 1M,2026-08-15
+cerebras,Tokens,"30,000/min","30,000/min",unchanged,https://inference-docs.cerebras.ai/support/rate-limits,gpt-oss-120b 5 30K 1M 1M (TPM=30K),2026-08-15
+cerebras,Tokens (daily),"1,000,000/day","1,000,000/day",unchanged,https://inference-docs.cerebras.ai/support/rate-limits,gpt-oss-120b 5 30K 1M 1M (TPD=1M; TPH also 1M),2026-08-15
+cerebras,Models,All Cerebras-powered models,All Cerebras-powered models,unchanged,https://inference-docs.cerebras.ai/support/rate-limits,Free Trial: Get started with $5 in free credits after making an account / Access to all Cerebras powered models,2026-08-15
+cerebras,Trial credits,(new row),"$5 one-time, expires 30 days after grant",changed,https://inference-docs.cerebras.ai/support/rate-limits,"$5 in credits that expire 30 days after they're granted. Once your credits are used up or expire, you need to purchas...",2026-08-15
+cerebras,credit_card_required,None,True,changed,https://inference-docs.cerebras.ai/support/rate-limits,New accounts receive $5 in free credits after adding a verified payment method... If you skip adding a payment method at,2026-08-15
+clerk,Monthly retained users,"50,000/month","50,000/month",unchanged,https://clerk.com/pricing,"Free for your first 50,000 monthly retained users and 100 monthly retained orgs",2026-08-15
+clerk,Monthly retained orgs,100,100,unchanged,https://clerk.com/pricing,"Once you exceed 100 monthly retained organizations, you will be required to upgrade to the B2B Authentication add-on",2026-08-15
+clerk,credit_card_required,False,False,unchanged,https://clerk.com/pricing,"Free / No credit card required / Free for your first 50,000 monthly retained users and 100 monthly retained orgs. No cre",2026-08-15
+cloudflare-workers,Worker requests,"100,000 requests/day","100,000 requests/day",unchanged,https://developers.cloudflare.com/workers/platform/pricing/,"Free | 100,000 per day | No charge for duration | 10 milliseconds of CPU time per invocation",2026-08-15
+cloudflare-workers,CPU time,10 ms/invocation,10 ms/invocation,unchanged,https://developers.cloudflare.com/workers/platform/pricing/,Free ... 10 milliseconds of CPU time per invocation,2026-08-15
+cloudflare-workers,Static assets (Workers/Pages),Unlimited requests,Unlimited requests,unchanged,https://developers.cloudflare.com/workers/platform/pricing/,Requests to static assets are free and unlimited.,2026-08-15
+cloudflare-workers,KV reads,"100,000 reads/day","100,000 reads/day",unchanged,https://developers.cloudflare.com/kv/platform/pricing/,"Free plan | Keys read 100,000 / day",2026-08-15
+cloudflare-workers,KV writes,"1,000 writes/day","1,000 writes/day",unchanged,https://developers.cloudflare.com/kv/platform/pricing/,"Keys written 1,000 / day | Keys deleted 1,000 / day | List requests 1,000 / day",2026-08-15
+cloudflare-workers,KV storage,1 GB total,1 GB total,unchanged,https://developers.cloudflare.com/kv/platform/pricing/,Stored data 1 GB,2026-08-15
+cloudflare-workers,D1 rows read,5 million rows/day,5 million rows/day,unchanged,https://developers.cloudflare.com/d1/platform/pricing/,Workers Free | Rows read 5 million / day,2026-08-15
+cloudflare-workers,D1 rows written,"100,000 rows/day","100,000 rows/day",unchanged,https://developers.cloudflare.com/d1/platform/pricing/,"Rows written 100,000 / day",2026-08-15
+cloudflare-workers,D1 storage,5 GB total,5 GB total,unchanged,https://developers.cloudflare.com/d1/platform/pricing/,Storage (per GB stored) 5 GB (total),2026-08-15
+cloudflare-workers,R2 storage,10 GB-month/month,10 GB-month/month,unchanged,https://developers.cloudflare.com/r2/pricing/,Free tier ... Storage 10 GB-month / month ... only applies to Standard storage,2026-08-15
+cloudflare-workers,R2 Class A operations,1 million requests/month,1 million requests/month,unchanged,https://developers.cloudflare.com/r2/pricing/,Class A Operations 1 million requests / month,2026-08-15
+cloudflare-workers,R2 Class B operations,10 million requests/month,10 million requests/month,unchanged,https://developers.cloudflare.com/r2/pricing/,Class B Operations 10 million requests / month,2026-08-15
+cloudflare-workers,R2 egress,Free (unlimited),Free (unlimited),unchanged,https://developers.cloudflare.com/r2/pricing/,Egress (data transfer to Internet) Free / There are no charges for egress bandwidth for any storage class.,2026-08-15
+cloudflare-workers,credit_card_required,False,False,unchanged,https://developers.cloudflare.com/workers/platform/pricing/,"By default, users have access to the Workers Free plan. (docs do not state a card requirement; R2 card requirement remai",2026-08-15
+cohere,Chat,20 requests/min per model,20 requests/min per model,unchanged,https://docs.cohere.com/docs/rate-limits,Chat API (per model) | Command A ... 20 req / min (Trial rate limit),2026-08-15
+cohere,Embed,"2,000 inputs/min","2,000 inputs/min",unchanged,https://docs.cohere.com/docs/rate-limits,"Embed | 2,000 inputs / min | 2,000 inputs / min",2026-08-15
+cohere,Rerank,10 requests/min,10 requests/min,unchanged,https://docs.cohere.com/docs/rate-limits,"Rerank | 10 req / min | 1,000 req / min",2026-08-15
+cohere,Monthly cap,"1,000 API calls/month","1,000 API calls/month",unchanged,https://docs.cohere.com/docs/rate-limits,"Trial keys (and prod keys on newer Chat model variants) are limited to 1,000 API calls a month.",2026-08-15
+cohere,credit_card_required,None,None,unchanged,https://docs.cohere.com/docs/rate-limits,"When an account is created, we automatically create an Trial API key for you (card requirement not stated on official pa",2026-08-15
+convex,Function calls,1M/month,1M/month,unchanged,https://www.convex.dev/pricing,Free & Starter | Function calls 1M included ($2.20 per additional 1M),2026-08-15
+convex,Database storage,0.5 GB,0.5 GB,unchanged,https://www.convex.dev/pricing,Database storage 0.5 GB included ($0.22 per additional GB),2026-08-15
+convex,Bandwidth,1 GB/month,1 GB/month,unchanged,https://www.convex.dev/pricing,Data egress 1 GB included ($0.132 per additional GB); Database I/O 1 GB included,2026-08-15
+convex,Deployments,40,40,unchanged,https://www.convex.dev/pricing,Deployment limit 40 (tooltip: Maximum number of deployments per team; free 40 / pro 300),2026-08-15
+convex,credit_card_required,None,None,unchanged,https://www.convex.dev/pricing,Free & Starter | Free or $0/month and pay as you go (card requirement not stated on pricing page),2026-08-15
+deno-deploy,Requests,"1,000,000 requests/month","1,000,000 requests/month",unchanged,https://deno.com/deploy/pricing,Free $0 /month | Requests/month: 1M,2026-08-15
+deno-deploy,Egress bandwidth,20 GB/month,20 GB/month,unchanged,https://deno.com/deploy/pricing,Egress Bandwidth: 20GB,2026-08-15
+deno-deploy,CPU time,15 hours/month,15 hours/month,unchanged,https://deno.com/deploy/pricing,CPU time*: 15h,2026-08-15
+deno-deploy,Memory time,350 GB-hours/month,350 GB-hours/month,unchanged,https://deno.com/deploy/pricing,Memory time*: 350 GB-h,2026-08-15
+deno-deploy,KV storage,1 GiB,1 GiB,unchanged,https://deno.com/deploy/pricing,KV storage: 1 GiB,2026-08-15
+deno-deploy,KV read units,"450,000 reads/month","450,000 reads/month",unchanged,https://deno.com/deploy/pricing,"KV read units/mo (4KiB): 450,000",2026-08-15
+deno-deploy,KV write units,"300,000 writes/month","300,000 writes/month",unchanged,https://deno.com/deploy/pricing,"KV write units/mo (1KiB): 300,000",2026-08-15
+deno-deploy,Volume storage,1 GiB,1 GiB,unchanged,https://deno.com/deploy/pricing,Volume Storage*: 1 GiB,2026-08-15
+deno-deploy,Active deployments,20 max,20 max,unchanged,https://deno.com/deploy/pricing,Apps: Total number of deployments that can be active at any given time in your organization 20 | Deployments per hour...,2026-08-15
+deno-deploy,Custom domains,50 per organization,50 per organization,unchanged,https://deno.com/deploy/pricing,Custom domains: 50/org | Wildcard subdomains: No,2026-08-15
+deno-deploy,Team members,5,5,unchanged,https://deno.com/deploy/pricing,Team members: 5,2026-08-15
+deno-deploy,Log retention,1 day,1 day,unchanged,https://deno.com/deploy/pricing,Log retention: 1 Day,2026-08-15
+deno-deploy,credit_card_required,None,None,unchanged,https://deno.com/deploy/pricing,Free $0 /month For personal use and smaller projects (card requirement not stated on pricing page),2026-08-15
+fly-io,(no free tier; trial only),has_free_tier=false,has_free_tier=false,unchanged,https://fly.io/docs/about/free-trial/,"A free trial on Fly.io includes 2 hours of machine runtime or 7 days of access, whichever comes first ... 10 machines...",2026-08-15
+fly-io,credit_card_required,False,False,unchanged,https://fly.io/docs/about/free-trial/,free trial ... what resources you can use before you need to add a payment method / adding a card ends the free trial,2026-08-15
+github,Actions minutes,"2,000 minutes/month","2,000 minutes/month",unchanged,https://docs.github.com/en/billing/reference/product-usage-included,"GitHub Actions | Minutes (per month) | GitHub Free 2,000",2026-08-15
+github,Actions/Packages artifact storage,500 MB,500 MB,unchanged,https://docs.github.com/en/billing/reference/product-usage-included,GitHub Actions Storage 500 MB (GitHub Free); GitHub Packages Storage 500 MB,2026-08-15
+github,Codespaces compute,120 core hours/month,120 core hours/month,unchanged,https://docs.github.com/en/billing/reference/product-usage-included,GitHub Codespaces | Core hours (per month) | 120 (GitHub Free),2026-08-15
+github,Codespaces storage,15 GB-month/month,15 GB-month/month,unchanged,https://docs.github.com/en/billing/reference/product-usage-included,GitHub Codespaces | Storage (per month) | 15 GB,2026-08-15
+github,Pages site size,1 GB per site,1 GB per site,unchanged,https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits,Published GitHub Pages sites may be no larger than 1 GB.,2026-08-15
+github,Pages bandwidth,100 GB/month (soft limit),100 GB/month (soft limit),unchanged,https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits,soft bandwidth limit of 100 GB per month.,2026-08-15
+github,Pages builds,10 builds/hour (soft limit),10 builds/hour (soft limit),unchanged,https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits,soft limit of 10 builds per hour. This limit does not apply if you build and publish your site with a custom GitHub A...,2026-08-15
+github,Packages data transfer,1 GB/month,1 GB/month,unchanged,https://docs.github.com/en/billing/reference/product-usage-included,GitHub Packages | Data transfer (per month) | 1 GB (GitHub Free),2026-08-15
+github,credit_card_required,False,False,unchanged,https://docs.github.com/en/billing/reference/product-usage-included,(docs page lists included usage per plan; card requirement not stated - GitHub Free is the default no-payment plan),2026-08-15
+google-gemini,API tokens (input & output),"Free on eligible models (Gemini 3.5 Flash, 3.1 Flash-Lite, 3 Flash Preview, 2.5 Flash / Flash-Lite, 2.5 Pro, Live/TTS previews, Gemini Embedding, Gemma), subject to per-model rate limits","Free on eligible models (Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash / Flash-Lite, 3.1 Flash-Lite, 3 Flash Preview, 2.5 Pro / Flash / Flash-Lite, 2.0 Flash / Flash-Lite (deprecated), Live/TTS/Native Audio previews, Lyria 3, Gemini Embedding / Embedding 2, Robotics ER previews, Gemma 4), subject to per-model rate limits",changed,https://ai.google.dev/gemini-api/docs/pricing,Gemini 3.7 Flash ... Free Tier | Input price Free of charge; Gemini 3.6 Flash ... Free of charge; Gemma 4 ... Free of...,2026-08-15
+google-gemini,Google Search grounding,500 requests/day (shared between Flash and Flash-Lite),500 requests/day (shared between Flash and Flash-Lite),unchanged,https://ai.google.dev/gemini-api/docs/pricing,"Gemini 2.5 Flash | Grounding with Google Search | Free of charge, up to 500 RPD (limit shared with Flash-Lite RPD)",2026-08-15
+google-gemini,Google AI Studio (web UI),Free of charge in all available regions,Free of charge in all available regions,unchanged,https://ai.google.dev/gemini-api/docs/pricing,Google AI Studio usage is free of charge in all available regions.,2026-08-15
+google-gemini,credit_card_required,False,False,unchanged,https://ai.google.dev/gemini-api/docs/pricing,Usage tier Free | Qualification: Active project or free trial | Billing tier cap N/A (Tier 1 = Set up and link an active,2026-08-15
+groq,Requests (llama-3.3-70b-versatile),"30 requests/min, 1,000 requests/day","30 requests/min, 1,000 requests/day",unchanged,https://console.groq.com/docs/rate-limits,Free Plan Limits | llama-3.3-70b-versatile 30 1K 12K 100K (RPM RPD TPM TPD),2026-08-15
+groq,Requests (llama-3.1-8b-instant),"30 requests/min, 14,400 requests/day","30 requests/min, 14,400 requests/day",unchanged,https://console.groq.com/docs/rate-limits,llama-3.1-8b-instant 30 14.4K 6K 500K,2026-08-15
+groq,Requests (openai/gpt-oss-120b and gpt-oss-20b),"30 requests/min, 1,000 requests/day","30 requests/min, 1,000 requests/day",unchanged,https://console.groq.com/docs/rate-limits,openai/gpt-oss-120b 30 1K 8K 200K | openai/gpt-oss-20b 30 1K 8K 200K,2026-08-15
+groq,credit_card_required,False,False,unchanged,https://console.groq.com/docs/rate-limits,Free Plan Limits table on official docs; card requirement still not stated on official page (existing note: corroborated,2026-08-15
+helicone,Requests,"10,000/month","10,000/month",unchanged,https://www.helicone.ai/pricing,"Hobby Free | 10,000 free requests | Requests 10,000/mo",2026-08-15
+helicone,Ingestion rate,10 logs/min,10 logs/min,unchanged,https://www.helicone.ai/pricing,"Ingestion 10 logs/min | 1,000 logs/min | 15,000 logs/min | 30,000 logs/min",2026-08-15
+helicone,Storage,1 GB,1 GB,unchanged,https://www.helicone.ai/pricing,1 GB storage | Storage 1 GB,2026-08-15
+helicone,Retention,7-day,7-day,unchanged,https://www.helicone.ai/pricing,Retention 7 days | 1 month | 3 months | Forever,2026-08-15
+helicone,credit_card_required,None,None,unchanged,https://www.helicone.ai/pricing,Hobby Free ... Get started for free (card requirement not stated on pricing page),2026-08-15
+huggingface,Inference Providers credits,$0.10/month,$0.10/month,unchanged,https://huggingface.co/docs/inference-providers/pricing,"Monthly Credits | Free Users $0.10, subject to change | PRO Users $2.00",2026-08-15
+huggingface,Spaces hardware,"CPU Basic 2 vCPU / 16 GB RAM, free","CPU Basic 2 vCPU / 16 GB RAM, free",unchanged,https://huggingface.co/pricing,CPU Basic 2 vCPU 16 GB - - FREE,2026-08-15
+huggingface,Spaces GPU,ZeroGPU available free,ZeroGPU available free,unchanged,https://huggingface.co/pricing,ZeroGPU dynamic dynamic Nvidia RTX Pro 6000 Blackwell up to 96 GB FREE,2026-08-15
+huggingface,credit_card_required,None,None,unchanged,https://huggingface.co/pricing,"Free Users $0.10, subject to change | Pay as you go: yes (credits purchase required) (card requirement for the free acco",2026-08-15
+inngest,Executions,"50,000/month","50,000/month",unchanged,https://www.inngest.com/pricing,Hobby ... 50k executions | Executions 50k /mo included,2026-08-15
+inngest,Concurrency,5 concurrent,5 concurrent,unchanged,https://www.inngest.com/pricing,5 concurrent steps,2026-08-15
+inngest,Events,"500,000/month","500,000/month",unchanged,https://www.inngest.com/pricing,500k events ingested | Events 500k/mo included,2026-08-15
+inngest,Span data,500 MB/month,500 MB/month,unchanged,https://www.inngest.com/pricing,500 MB span data ingested | Span data ingested 500 MB included,2026-08-15
+inngest,Realtime,50 connections,50 connections,unchanged,https://www.inngest.com/pricing,50 realtime connections | Realtime Connections 50 | Messages 250k per day,2026-08-15
+inngest,credit_card_required,False,False,unchanged,https://www.inngest.com/pricing,Hobby $0/mo | No credit card required | Get started for Free,2026-08-15
+langfuse,Units,"50,000/month","50,000/month",unchanged,https://langfuse.com/pricing,Hobby | Free | 50k units / month included,2026-08-15
+langfuse,Retention,30-day data access,30-day data access,unchanged,https://langfuse.com/pricing,30 days data access,2026-08-15
+langfuse,Users,2,2,unchanged,https://langfuse.com/pricing,2 users,2026-08-15
+langfuse,credit_card_required,False,False,unchanged,https://langfuse.com/pricing,Get started on the Hobby plan for free. No credit card required.,2026-08-15
+modal,Compute credits,$30/month free,$30/month free,unchanged,https://modal.com/pricing,Starter $0 + compute / month | $30 / month free credits | 3 workspace seats included | 100 containers + 10 GPU concur...,2026-08-15
+modal,credit_card_required,None,None,unchanged,https://modal.com/pricing,Starter $0 + compute / month ... $30 / month free credits (card requirement not stated on pricing page),2026-08-15
+mongodb-atlas,Storage,512 MB (0.5 GB) total,512 MB (0.5 GB) total,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters: 0.5 GB (Data Storage) / pricing page: Free forever 512MB of storage,2026-08-15
+mongodb-atlas,Operations,100 operations/second,100 operations/second,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters: 100 operations per second,2026-08-15
+mongodb-atlas,Data transfer,10 GB in / 10 GB out per 7-day rolling period,10 GB in / 10 GB out per 7-day rolling period,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters: 10 GB in and 10 GB out per period (rolling seven-day period),2026-08-15
+mongodb-atlas,Connections,500 concurrent connections,500 concurrent connections,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters can only have a maximum of 500 connections.,2026-08-15
+mongodb-atlas,Sort memory,32 MB in-memory sort limit,32 MB in-memory sort limit,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters sort in memory limit is 32 MB.,2026-08-15
+mongodb-atlas,Databases/Collections,"100 databases, 500 collections total","100 databases, 500 collections total",unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free clusters can have a maximum of 100 databases and 500 collections total.,2026-08-15
+mongodb-atlas,Clusters,1 free cluster per project,1 free cluster per project,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,You can deploy only one Free cluster per project.,2026-08-15
+mongodb-atlas,credit_card_required,False,False,unchanged,https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/,Free forever | $0/hour | 512MB of storage (card requirement not stated on pricing page; existing note relies on the sign,2026-08-15
+neon,Compute,100 CU-hours/project/month,100 CU-hours/project/month,unchanged,https://neon.com/pricing,100 CU-hrs monthly per project | Sizes up to 2 CU (8 GB RAM) | After 5 minutes when inactive (scale to zero),2026-08-15
+neon,Storage,0.5 GB/project,0.5 GB/project,unchanged,https://neon.com/pricing,0.5 GB of storage per project,2026-08-15
+neon,Projects,100 projects,100 projects,unchanged,https://neon.com/pricing,100 projects,2026-08-15
+neon,Branches,10 branches/project,10 branches/project,unchanged,https://neon.com/pricing,Free $0/month | 100 (projects) | 10 (root and child branches) | 100 CU-hours Per Project,2026-08-15
+neon,Data transfer (egress),5 GB public network egress/month,5 GB public network egress/month,unchanged,https://neon.com/pricing,Public network transfer Egress | 5 GB included,2026-08-15
+neon,Snapshots,1 manual snapshot/project,1 manual snapshot/project,unchanged,https://neon.com/pricing,Snapshots | 1 snapshot,2026-08-15
+neon,History (point-in-time restore),6 hours (1 GB limit),6 hours (1 GB limit),unchanged,https://neon.com/pricing,History window For instant restore | Up to 6 hours or 1 GB of data changes,2026-08-15
+neon,Auth monthly active users,"60,000 MAU","60,000 MAU",unchanged,https://neon.com/pricing,"Managed Better Auth | Up to 60k MAUs / On the Free plan, Managed Better Auth is included for up to 60,000 MAU.",2026-08-15
+neon,Monitoring retention,1 day,1 day,unchanged,https://neon.com/pricing,"Monitoring retention Window for metrics, logs | 1 day",2026-08-15
+neon,credit_card_required,False,False,unchanged,https://neon.com/pricing,Free $0 | Build and learn free with no time limits and no credit card required.,2026-08-15
+netlify,Credits,300 credits/month,300 credits/month,unchanged,https://www.netlify.com/pricing/,Free $0 forever ... 300 credit limit / month; docs: 300 credits/month with credit hard limit,2026-08-15
+netlify,Bandwidth,20 credits per GB (~15 GB/month if used only on bandwidth),20 credits per GB (~15 GB/month if used only on bandwidth),unchanged,https://www.netlify.com/pricing/,Bandwidth 20 credits per GB,2026-08-15
+netlify,Production deploys,15 credits per production deploy (~20 deploys/month if used only on deploys),15 credits per production deploy (~20 deploys/month if used only on deploys),unchanged,https://www.netlify.com/pricing/,Production deploys 15 credits each ... Also includes: Unlimited Deploy Previews and branch deploys.,2026-08-15
+netlify,Compute (functions),10 credits per GB-hour,10 credits per GB-hour,unchanged,https://www.netlify.com/pricing/,Compute 10 credits per GB-hour,2026-08-15
+netlify,Web requests,"2 credits per 10,000 requests","2 credits per 10,000 requests",unchanged,https://www.netlify.com/pricing/,Web requests 2 credits per 10k requests,2026-08-15
+netlify,AI inference,180 credits per USD of AI model usage,180 credits per USD of AI model usage,unchanged,https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/how-credits-work/,AI inference 180 credits per USD of AI model usage (pricing page now says 'Varies based on AI model'),2026-08-15
+netlify,Form submissions,Unlimited,Unlimited,unchanged,https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/how-credits-work/,Netlify's web forms service is free and unlimited for all credit-based plans.,2026-08-15
+netlify,Concurrent builds,1,1,unchanged,https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/,"1 concurrent build included in plan, meaning only 1 build can run at the same time.",2026-08-15
+netlify,Projects (sites),500 projects,500 projects,unchanged,https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/,500 projects (Free / Personal / Pro),2026-08-15
+netlify,Netlify Database,"3 databases, 20 active branches, 7-day backup retention","3 databases, 20 active branches, 7-day backup retention",unchanged,https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/credit-based-pricing-plans/,"Netlify Database | 3 databases, 20 active branches, 7-day backup retention",2026-08-15
+netlify,credit_card_required,False,False,unchanged,https://www.netlify.com/pricing/,Free $0 forever | Build and deploy free forever | 300 credit limit / month | Start for free (card requirement not stated,2026-08-15
+openrouter,Free-model requests (no credits purchased),50 requests/day,50 requests/day,unchanged,https://openrouter.ai/docs/api/reference/limits,inline MDX consts in page HTML: FREE_MODEL_NO_CREDITS_RPD=50; FREE_MODEL_CREDITS_THRESHOLD=10 (table 'Less than {thre...,2026-08-15
+openrouter,Free-model requests (after buying $10+ credits),"1,000 requests/day","1,000 requests/day",unchanged,https://openrouter.ai/docs/api/reference/limits,FREE_MODEL_HAS_CREDITS_RPD=1e3; FREE_MODEL_CREDITS_THRESHOLD=10 ('At least {threshold}' row),2026-08-15
+openrouter,Free-model request rate,20 requests/minute,20 requests/minute,unchanged,https://openrouter.ai/docs/api/reference/limits,FREE_MODEL_RATE_LIMIT_RPM=20,2026-08-15
+openrouter,credit_card_required,False,False,unchanged,https://openrouter.ai/docs/api/reference/limits,:free variants usable with 0 credits purchased (limits table row 'Less than 10 credits'); card requirement not stated,2026-08-15
+pinecone,Storage,Up to 2 GB,Up to 2 GB,unchanged,https://www.pinecone.io/pricing/,Pricing Dimensions | Database | Storage | Up to 2 GB (Starter),2026-08-15
+pinecone,Indexes,Up to 5 indexes,Up to 5 indexes,unchanged,https://www.pinecone.io/pricing/,Indexes | Up to 5 (Starter) | 10 per project (Builder),2026-08-15
+pinecone,Write units,2M/month,2M/month,unchanged,https://www.pinecone.io/pricing/,Write Units | Up to 2M/mo,2026-08-15
+pinecone,Read units,1M/month,1M/month,unchanged,https://www.pinecone.io/pricing/,Read Units | Up to 1M/mo,2026-08-15
+pinecone,Egress,1 GB/month,1 GB/month,unchanged,https://www.pinecone.io/pricing/,Egress | Up to 1GB/mo,2026-08-15
+pinecone,credit_card_required,None,None,unchanged,https://www.pinecone.io/pricing/,Starter | For trying out and for small applications. | Start for Free | Free (card requirement not stated on pricing pag,2026-08-15
+posthog,Product analytics,1M events/month,1M events/month,unchanged,https://posthog.com/pricing,Free tier on all plans ... 1M events / First 1 million events Free,2026-08-15
+posthog,Session replay,"5,000 recordings/month","5,000 recordings/month",unchanged,https://posthog.com/pricing,5K recordings / First 5k recordings Free,2026-08-15
+posthog,Feature flags,1M requests/month,1M requests/month,unchanged,https://posthog.com/pricing,Feature flags 1M requests / First 1 million requests Free,2026-08-15
+posthog,credit_card_required,False,False,unchanged,https://posthog.com/pricing,Free - no credit card required / Only add a card if you need more than the free tier limits,2026-08-15
+postmark,Emails,100/month,100/month,unchanged,https://postmarkapp.com/pricing,Free $0.00/mo | Test your integration with 100 emails/month | No overages allowed in this plan. / Everyone starts on ...,2026-08-15
+postmark,Retention,45-day message retention,45-day message retention,unchanged,https://postmarkapp.com/pricing,Detailed Activity Retention | Full message retention | 45 Days,2026-08-15
+postmark,credit_card_required,False,False,unchanged,https://postmarkapp.com/pricing,Start Free Trial | No Credit Card Required,2026-08-15
+qdrant,Free cluster,1 single-node cluster,1 single-node cluster,unchanged,https://qdrant.tech/pricing/,Free Tier | Free forever | Single Node Cluster,2026-08-15
+qdrant,Resources,0.5 vCPU / 1 GB RAM / 4 GB disk,0.5 vCPU / 1 GB RAM / 4 GB disk,unchanged,https://qdrant.tech/pricing/,0.5 vCPU / 1GB RAM/ 4 GB Disk.,2026-08-15
+qdrant,Cloud inference,Free with selected models,Free with selected models,unchanged,https://qdrant.tech/pricing/,Free Cloud Inference With Selected Models / Cloud Inference: Only free and external models,2026-08-15
+qdrant,credit_card_required,None,None,unchanged,https://qdrant.tech/pricing/,Free Tier | Free forever | Start Free (card requirement not stated on pricing page),2026-08-15
+railway,Trial credit,"$5 one-time, valid 30 days","$5 one-time, valid 30 days",unchanged,https://docs.railway.com/reference/pricing/free-trial,The trial gives access to basic features for up to 30 days and includes a one-time grant of $5. After 30 days passes ...,2026-08-15
+railway,Free plan credit,$1/month (non-rolling),$1/month (non-rolling),unchanged,https://docs.railway.com/reference/pricing/free-trial,"Free plan, which provides $1 of free credit per month. The credit does not roll over month to month.",2026-08-15
+railway,"RAM (Free plan, per service)",0.5 GB,0.5 GB,unchanged,https://railway.com/pricing,"RAM per service | Up to 1 GB during trial, then up to 0.5 GB / Up to 1 vCPU / 0.5 GB RAM per service",2026-08-15
+railway,"CPU (Free plan, per service)",1 vCPU,1 vCPU,unchanged,https://railway.com/pricing,"CPU per service | Up to 2 vCPU during trial, then up to 1 vCPU",2026-08-15
+railway,Volume storage (Free plan),0.5 GB,0.5 GB,unchanged,https://railway.com/pricing,"Volume storage 0.5 GB | Ephemeral disk 1 GB | Build image size 4 GB | Replicas per service 2 during the free trial, t...",2026-08-15
+railway,credit_card_required,False,False,unchanged,https://railway.com/pricing,"Free $0 per month ... Start with a 30-day free trial with $5 credits, then $1 per month ... No credit card required",2026-08-15
+render,Web service instance hours,750 instance hours/workspace/calendar month,750 instance hours/workspace/calendar month,unchanged,https://render.com/docs/free,Render grants 750 Free instance hours to each workspace per calendar month ... a Free web service that goes 15 minute...,2026-08-15
+render,Free instance size,512 MB RAM / 0.1 CPU,512 MB RAM / 0.1 CPU,unchanged,https://render.com/pricing,Instance Type Pricing RAM CPU | Free $0/month 512 MB 0.1 | Starter $7/month 512 MB 0.5,2026-08-15
+render,Static sites,Unlimited sites at no cost,Free to deploy (Hobby workspace capped at 25 services total),changed,https://render.com/pricing,Static sites are free to deploy on Render (docs/free); pricing: Hobby | Deploy up to 25 services | Maximum services 2...,2026-08-15
+render,Bandwidth (outbound),100 GB/month (Hobby workspace included allotment),5 GB/month (Hobby workspace included allotment),changed,https://render.com/pricing,Hobby ... 5 GB of bandwidth included / Bandwidth 5 GB included per month then $0.15 per GB | 25 GB included per month...,2026-08-15
+render,PostgreSQL (free),"1 GB storage, expires 30 days after creation","1 GB storage, expires 30 days after creation",unchanged,https://render.com/docs/free,Free Render Postgres databases have a fixed storage capacity of 1 GB. ... expire 30 days after creation ... grace per...,2026-08-15
+render,Key Value (Redis-compatible),1 free instance/workspace,1 free instance/workspace,unchanged,https://render.com/docs/free,"Only one Free Key Value instance can be active for any given workspace ... whenever an instance restarts, all of its ...",2026-08-15
+render,Custom domains,2 included on Hobby workspace,2 included on Hobby workspace,unchanged,https://render.com/pricing,Custom domains | 2 included then $0.25/domain/month | 15 included | 25 included,2026-08-15
+render,credit_card_required,False,False,unchanged,https://render.com/docs/free,"Hobby $0/mo + compute ... Deploy for free; docs/free: If you haven't added a payment method, Render instead suspends all",2026-08-15
+resend,Emails,"3,000/month","3,000/month",unchanged,https://resend.com/pricing,"Free $0 / mo | 3,000 emails / mo",2026-08-15
+resend,Daily cap,100 emails/day,100 emails/day,unchanged,https://resend.com/pricing,100 emails a day / Daily limit 100 (Free) | No limit (Pro),2026-08-15
+resend,Domains,1,1,unchanged,https://resend.com/pricing,"1 domain / Custom domains 1 | 10 | 1,000",2026-08-15
+resend,Marketing contacts,"1,000",,unverifiable,https://resend.com/pricing,"FAQ: marketing plans are not limited by the number of emails you can send, but only by the number of contacts you hav...",2026-08-15
+resend,Automation runs,"10,000/month","10,000/month",unchanged,https://resend.com/pricing,"10,000 automation runs / Start with 10,000 Automation Runs for free",2026-08-15
+resend,Retention,30-day data,30-day data,unchanged,https://resend.com/pricing,30-day data retention / Data retention 30 days,2026-08-15
+resend,credit_card_required,None,None,unchanged,https://resend.com/pricing,Free $0 / mo ... Get started (card requirement not stated on pricing page),2026-08-15
+sentry,Errors,"5,000/month","5,000/month",unchanged,https://sentry.io/pricing/,developer | Error Monitoring 5k errors,2026-08-15
+sentry,Spans (tracing),5M/month,5M/month,unchanged,https://sentry.io/pricing/,Tracing 5M spans,2026-08-15
+sentry,Replays,50/month,50/month,unchanged,https://sentry.io/pricing/,Session Replay 50 replays,2026-08-15
+sentry,Cron monitors,1,1,unchanged,https://sentry.io/pricing/,Cron Monitoring 1 cron monitor (also Uptime Monitoring 1 uptime monitor; Logs 5GB; Application Metrics 5GB),2026-08-15
+sentry,Attachments,1 GB,1 GB,unchanged,https://sentry.io/pricing/,Attachments 1GB,2026-08-15
+sentry,Seats,1 user,1 user,unchanged,https://sentry.io/pricing/,Users 1 User (developer) | Unlimited (team),2026-08-15
+sentry,Retention,30-day,30-day,unchanged,https://sentry.io/pricing/,Data retention 30-day lookback,2026-08-15
+sentry,credit_card_required,None,None,unchanged,https://sentry.io/pricing/,Developer Free ... Try Sentry for Free (card requirement not stated on pricing page),2026-08-15
+supabase,Database size,500 MB per project,500 MB per project,unchanged,https://supabase.com/pricing,500 MB database size | Shared CPU - 500 MB RAM,2026-08-15
+supabase,File storage,1 GB,1 GB,unchanged,https://supabase.com/pricing,1 GB file storage,2026-08-15
+supabase,Egress,5 GB/month,5 GB/month,unchanged,https://supabase.com/pricing,5 GB egress | 5 GB cached egress,2026-08-15
+supabase,Monthly active users (Auth),"50,000 MAU","50,000 MAU",unchanged,https://supabase.com/pricing,"50,000 monthly active users / MAUs 50,000 included",2026-08-15
+supabase,Edge Function invocations,"500,000/month","500,000/month",unchanged,https://supabase.com/pricing,"Edge Functions | Invocations 500,000 included",2026-08-15
+supabase,Realtime concurrent connections,200 peak concurrent,200 peak concurrent,unchanged,https://supabase.com/pricing,Concurrent Peak Connections 200 included,2026-08-15
+supabase,Realtime messages,"2,000,000/month","2,000,000/month",unchanged,https://supabase.com/pricing,Messages Per Month 2 Million included,2026-08-15
+supabase,Active projects,2 active projects,2 active projects,unchanged,https://supabase.com/pricing,Free projects are paused after 1 week of inactivity. Limit of 2 active projects.,2026-08-15
+supabase,credit_card_required,False,False,unchanged,https://supabase.com/pricing,Free $0 / month | Start for Free (Free plan needs no billing; billing FAQ discusses cards only for paid plans),2026-08-15
+tigris,Storage,5 GB standard/month,5 GB standard/month,unchanged,https://www.tigrisdata.com/pricing/,5 GB of data storage (standard tier) per month,2026-08-15
+tigris,Class A ops,"10,000 PUT/COPY/POST/LIST per month","10,000 PUT/COPY/POST/LIST per month",unchanged,https://www.tigrisdata.com/pricing/,"10,000 PUT, COPY, POST, LIST requests per month",2026-08-15
+tigris,Class B ops,"100,000 GET/other per month","100,000 GET/other per month",unchanged,https://www.tigrisdata.com/pricing/,"100,000 GET, SELECT, and all other requests per month",2026-08-15
+tigris,Egress,Free,Free,unchanged,https://www.tigrisdata.com/pricing/,Zero egress fees ... we don't charge for ... data transfer out to the internet (egress),2026-08-15
+tigris,credit_card_required,None,None,unchanged,https://www.tigrisdata.com/pricing/,Free Tier | We offer a free tier as follows (card requirement not stated on pricing page),2026-08-15
+trigger-dev,Credits,$5/month free,$5/month free,unchanged,https://trigger.dev/pricing,"Free $0/month | $5 / month free credits; FAQ: On the Free plan, you'll need to upgrade to keep running tasks once the...",2026-08-15
+trigger-dev,Concurrency,20 concurrent runs,20 concurrent runs,unchanged,https://trigger.dev/pricing,20 concurrent runs,2026-08-15
+trigger-dev,Team members,5,5,unchanged,https://trigger.dev/pricing,5 team members,2026-08-15
+trigger-dev,Schedules,10,10,unchanged,https://trigger.dev/pricing,10 schedules,2026-08-15
+trigger-dev,Retention,1-day logs,1-day logs,unchanged,https://trigger.dev/pricing,1 day log retention | 1 day query period,2026-08-15
+trigger-dev,credit_card_required,None,None,unchanged,https://trigger.dev/pricing,Free $0/month | Get started (card requirement not stated on pricing page),2026-08-15
+turso,Databases,100 databases,100 databases,unchanged,https://turso.tech/pricing,Databases | Free 100 | Developer Unlimited,2026-08-15
+turso,Storage,5 GB total,5 GB total,unchanged,https://turso.tech/pricing,Storage | Free 5GB | Developer 9GB + $0.75 / GB,2026-08-15
+turso,Rows read,"500,000,000 rows/month","500,000,000 rows/month",unchanged,https://turso.tech/pricing,Monthly Rows Read | Free 500 Million,2026-08-15
+turso,Rows written,"10,000,000 rows/month","10,000,000 rows/month",unchanged,https://turso.tech/pricing,Monthly Rows Written | Free 10 Million,2026-08-15
+turso,Syncs,3 GB/month,3 GB/month,unchanged,https://turso.tech/pricing,Monthly Syncs | Free 3GB,2026-08-15
+turso,Point-in-time restore,1 day retention,1 day retention,unchanged,https://turso.tech/pricing,Point-In-Time Restore | Free 1 day,2026-08-15
+turso,credit_card_required,False,False,unchanged,https://turso.tech/pricing,"Start free today, no credit card required.",2026-08-15
+upstash,Commands,"500,000 commands/month","500,000 commands/month",unchanged,https://upstash.com/pricing/redis,"Free $0 | Monthly Commands 500K | Max commands per second 10,000; FAQ: Free tier includes 256MB data size and 500K co...",2026-08-15
+upstash,Data size,256 MB,256 MB,unchanged,https://upstash.com/pricing/redis,Data Size 256 MB,2026-08-15
+upstash,Bandwidth,10 GB/month,10 GB/month,unchanged,https://upstash.com/pricing/redis,Monthly Bandwidth 10 GB / Max monthly bandwidth 10 GB,2026-08-15
+upstash,Databases,1 free database,1 free database,unchanged,https://upstash.com/pricing/redis,1 Free DB / Max Databases 1 | 100 | 100,2026-08-15
+upstash,credit_card_required,False,False,unchanged,https://upstash.com/pricing/redis,"FAQ: Once you enter your credit card, your database will be upgraded to the pay-as-you-go plan and limits will be update",2026-08-15
+vercel,Fast Data Transfer (bandwidth),100 GB/month,100 GB/month,unchanged,https://vercel.com/pricing,Fast Data Transfer | 100 GB / month included (Hobby) | 1TB / month included (Pro),2026-08-15
+vercel,Function Invocations,"1,000,000/month","1,000,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Function Invocations | First 1,000,000",2026-08-15
+vercel,Functions Active CPU,4 CPU-hours/month,4 CPU-hours/month,unchanged,https://vercel.com/docs/plans/hobby,Active CPU | 4 CPU-hrs,2026-08-15
+vercel,Functions Provisioned Memory,360 GB-hrs/month,360 GB-hrs/month,unchanged,https://vercel.com/docs/plans/hobby,Provisioned Memory | 360 GB-hrs,2026-08-15
+vercel,Edge Requests,"1,000,000/month","1,000,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Edge Requests | Up to 1,000,000 requests (Hobby)",2026-08-15
+vercel,Function max duration,300 seconds (5 min),300 seconds (5 min),unchanged,https://vercel.com/docs/plans/hobby,Vercel Function maximum duration | 300s (5 minutes),2026-08-15
+vercel,Deployments,100/day,100/day,unchanged,https://vercel.com/docs/plans/hobby,"Deployments per day | 100 | 6,000",2026-08-15
+vercel,Projects,200,200,unchanged,https://vercel.com/docs/plans/hobby,Projects | 200 | Unlimited,2026-08-15
+vercel,Image Transformations,"5,000/month","5,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Image Transformations First 5,000 | Image Cache Reads First 300,000 | Image Cache Writes First 100,000",2026-08-15
+vercel,Blob Storage,1 GB/month,1 GB/month,unchanged,https://vercel.com/pricing,Blob | Storage Size 1 GB / month included | Simple Operations 10K | Advanced Operations 2K | Blob Data Transfer 10 GB...,2026-08-15
+vercel,Fast Origin Transfer,10 GB/month,10 GB/month,unchanged,https://vercel.com/pricing,Fast Origin Transfer | 10 GB / month included,2026-08-15
+vercel,ISR Reads,"1,000,000/month","1,000,000/month",unchanged,https://vercel.com/pricing,ISR Reads | 1M / month included,2026-08-15
+vercel,Edge Config Reads,"100,000/month","100,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Global Config Reads | First 100,000 | Global Config Writes | First 100",2026-08-15
+vercel,Web Analytics Events,"50,000/month","50,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Web Analytics Events | 50,000 events / month included; Analytics | 50,000 included Events 1 month of data",2026-08-15
+vercel,Speed Insights,"10,000 events/month, 1 project","10,000 events/month, 1 project",unchanged,https://vercel.com/docs/plans/hobby,"Speed Insights Events First 10,000 events | Speed Insights Projects 1 Project",2026-08-15
+vercel,Sandbox Active CPU,5 hours/month,5 hours/month,unchanged,https://vercel.com/pricing,Vercel Sandbox | Active CPU 5 hours / month included | Provisioned Memory 420 GB-hrs / month included,2026-08-15
+vercel,Domains per project,50,50,unchanged,https://vercel.com/docs/plans/hobby,Domains per project | 50 | Unlimited,2026-08-15
+vercel,Build machine,"2 vCPUs, 8 GB memory, 32 GB disk","2 vCPUs, 8 GB memory, 32 GB disk",unchanged,https://vercel.com/docs/plans/hobby,Build vCPUs 2 | Build memory (GB) 8 | Build disk size 32 GB,2026-08-15
+vercel,Runtime Logs,1 hour retention,1 hour retention,unchanged,https://vercel.com/docs/plans/hobby,Runtime Logs | 1 hour of logs | 1 day of logs,2026-08-15
+vercel,Workflow Events,"50,000/month","50,000/month",unchanged,https://vercel.com/docs/plans/hobby,"Workflow Events 50,000 events / month included | Workflow Data Written 1 GB",2026-08-15
+vercel,credit_card_required,None,None,unchanged,https://vercel.com/docs/plans/hobby,The Hobby plan is free ... As the Hobby plan is a free tier there are no billing cycles (card requirement still not stat,2026-08-15
+weaviate,Memory,1 GB,1 GB,unchanged,https://weaviate.io/pricing,"100,000 objects - 1 GB memory - 10 GB disk.",2026-08-15
+weaviate,Disk,10 GB,10 GB,unchanged,https://weaviate.io/pricing,"100,000 objects - 1 GB memory - 10 GB disk.",2026-08-15
+weaviate,Objects,"100,000 max","100,000 max",unchanged,https://weaviate.io/pricing,"100,000 objects ... Always free - 1 cluster per user",2026-08-15
+weaviate,Collections,"1 collection, up to 3 tenants","1 collection, up to 3 tenants",unchanged,https://weaviate.io/pricing,"1 collection, up to 3 tenants.",2026-08-15
+weaviate,Embeddings,"2,000 requests/day","2,000 requests/day",unchanged,https://weaviate.io/pricing,"Embeddings (2,000 req/day) + Query Agent (1,000 req/mo).",2026-08-15
+weaviate,Query Agent,"1,000 requests/month","1,000 requests/month",unchanged,https://weaviate.io/pricing,"Query Agent | Free to try - 1,000 requests / month",2026-08-15
+weaviate,credit_card_required,False,False,unchanged,https://weaviate.io/pricing,Always free | Free | No credit card required,2026-08-15

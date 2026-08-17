@@ -1,0 +1,33 @@
+{
+  "id": "clerk",
+  "name": "Clerk",
+  "category": "auth",
+  "tags": [
+    "ai-stack",
+    "auth",
+    "user-management",
+    "oauth"
+  ],
+  "url": "https://clerk.com",
+  "pricing_url": "https://clerk.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Monthly retained users",
+      "limit": "50,000/month",
+      "notes": ""
+    },
+    {
+      "resource": "Monthly retained orgs",
+      "limit": "100",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://clerk.com/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Counts MRU (users returning >24h after signup), not MAU."
+}

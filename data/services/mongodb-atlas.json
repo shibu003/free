@@ -1,0 +1,59 @@
+{
+  "id": "mongodb-atlas",
+  "name": "MongoDB Atlas (M0 Free Cluster)",
+  "category": "database",
+  "tags": [
+    "mongodb",
+    "nosql",
+    "document"
+  ],
+  "url": "https://www.mongodb.com/products/platform/atlas-database",
+  "pricing_url": "https://www.mongodb.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Storage",
+      "limit": "512 MB (0.5 GB) total",
+      "notes": "Hard limit; cannot be exceeded without upgrading"
+    },
+    {
+      "resource": "Operations",
+      "limit": "100 operations/second",
+      "notes": "Also must stay under 100% query utilization over any 5-minute period"
+    },
+    {
+      "resource": "Data transfer",
+      "limit": "10 GB in / 10 GB out per 7-day rolling period",
+      "notes": ""
+    },
+    {
+      "resource": "Connections",
+      "limit": "500 concurrent connections",
+      "notes": ""
+    },
+    {
+      "resource": "Sort memory",
+      "limit": "32 MB in-memory sort limit",
+      "notes": ""
+    },
+    {
+      "resource": "Databases/Collections",
+      "limit": "100 databases, 500 collections total",
+      "notes": ""
+    },
+    {
+      "resource": "Clusters",
+      "limit": "1 free cluster per project",
+      "notes": "Shared RAM/vCPU, 3-node replica set, no sharding"
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://www.mongodb.com/pricing",
+    "https://www.mongodb.com/docs/atlas/reference/free-shared-limitations/",
+    "https://www.mongodb.com/cloud/atlas/register"
+  ],
+  "confidence": "high",
+  "notes": "Perpetual free tier (\"Free forever\" per official pricing page), not a trial or credits. Cluster auto-pauses after 30 days with zero connections. No backups (use mongodump), no Performance Advisor, no VPC peering/private endpoints, no server-side JavaScript, aggregation limited to 50 stages, MongoDB version fixed (currently 8.0, auto-upgraded). Signup form has no credit card field (verified 2026-07-03)."
+}

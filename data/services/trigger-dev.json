@@ -1,0 +1,47 @@
+{
+  "id": "trigger-dev",
+  "name": "Trigger.dev",
+  "category": "compute",
+  "tags": [
+    "ai-stack",
+    "background-jobs",
+    "durable-workflows"
+  ],
+  "url": "https://trigger.dev",
+  "pricing_url": "https://trigger.dev/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Credits",
+      "limit": "$5/month free",
+      "notes": ""
+    },
+    {
+      "resource": "Concurrency",
+      "limit": "20 concurrent runs",
+      "notes": ""
+    },
+    {
+      "resource": "Team members",
+      "limit": "5",
+      "notes": ""
+    },
+    {
+      "resource": "Schedules",
+      "limit": "10",
+      "notes": ""
+    },
+    {
+      "resource": "Retention",
+      "limit": "1-day logs",
+      "notes": ""
+    }
+  ],
+  "credit_card_required": null,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://trigger.dev/pricing"
+  ],
+  "confidence": "high",
+  "notes": "Metered by credits; tasks stop once $5/month is used."
+}

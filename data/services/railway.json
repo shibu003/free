@@ -1,0 +1,48 @@
+{
+  "id": "railway",
+  "name": "Railway",
+  "category": "compute",
+  "tags": [
+    "docker",
+    "postgres"
+  ],
+  "url": "https://railway.com",
+  "pricing_url": "https://railway.com/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Trial credit",
+      "limit": "$5 one-time, valid 30 days",
+      "notes": "One-time grant at signup; expires after 30 days or when spent, then account reverts to the Free plan. Trial limited to 1 GB RAM, shared vCPU, 5 services/project."
+    },
+    {
+      "resource": "Free plan credit",
+      "limit": "$1/month (non-rolling)",
+      "notes": "Perpetual Free plan after trial ends; unused credit does not roll over."
+    },
+    {
+      "resource": "RAM (Free plan, per service)",
+      "limit": "0.5 GB",
+      "notes": ""
+    },
+    {
+      "resource": "CPU (Free plan, per service)",
+      "limit": "1 vCPU",
+      "notes": ""
+    },
+    {
+      "resource": "Volume storage (Free plan)",
+      "limit": "0.5 GB",
+      "notes": "Ephemeral storage 1 GB; image size limit 4 GB; 1 replica per service."
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-15",
+  "sources": [
+    "https://railway.com/pricing",
+    "https://docs.railway.com/reference/pricing/free-trial",
+    "https://docs.railway.com/reference/pricing/plans"
+  ],
+  "confidence": "high",
+  "notes": "Railway's model is a one-time $5/30-day trial (no credit card required per official pricing page) that then reverts to a perpetual Free plan with a $1/month non-rolling credit — very small, effectively only for tiny always-on or intermittent workloads. Stateful volumes created during the trial are deleted 30 days after trial expiration unless you upgrade. Paid plans: Hobby $5/mo (includes $5 usage), Pro $20/seat/mo; usage billed per-second beyond included credit. This replaces the older setup where Railway had removed its free tier entirely (2023) — the $1/mo Free plan is a newer reintroduction."
+}
