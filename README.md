@@ -166,3 +166,5 @@ Some links may become referral links; they never affect what the data says. Corr
 ## License
 
 MIT
+
+Contributions need a sign-off: see [CLA.md](CLA.md).
