@@ -1,0 +1,35 @@
+{
+  "id": "zai",
+  "name": "Z.ai (Zhipu)",
+  "category": "llm-api",
+  "tags": [
+    "ai-stack",
+    "llm",
+    "inference",
+    "vision"
+  ],
+  "url": "https://z.ai",
+  "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+  "has_free_tier": true,
+  "free_tier": [
+    {
+      "resource": "Models",
+      "limit": "GLM-4.7-Flash, GLM-4.5-Flash (text), GLM-4.6V-Flash (vision)",
+      "type": "perpetual-quota",
+      "notes": "Listed as \"Free\" on the pricing page. GLM-4.6 and GLM-5.x are paid-only ($0.07-$4.4 per 1M tokens depending on model/direction)."
+    },
+    {
+      "resource": "Rate limits",
+      "limit": "not published",
+      "type": "perpetual-quota",
+      "notes": "Docs state limits are tied to plan tier (Max > Pro > Lite) but do not publish concrete req/min or tokens/min numbers for the free-tier models."
+    }
+  ],
+  "credit_card_required": false,
+  "verified_at": "2026-08-17",
+  "sources": [
+    "https://docs.z.ai/guides/overview/pricing"
+  ],
+  "confidence": "medium",
+  "notes": "Confirmed working end-to-end 2026-08-17: an existing API key (no fresh signup) returned 429 'Insufficient balance or no resource package' on the paid GLM-4.6 model, then succeeded (HTTP 200) on GLM-4.7-Flash with no balance top-up. So the free-tier models really are billed separately from the paid ones, not just throttled. Rate limits are not published, so treat this as usable-but-unbounded rather than a documented free tier; confidence is medium until someone publishes the actual req/min ceiling."
+}

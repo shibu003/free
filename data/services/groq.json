@@ -13,28 +13,18 @@
   "has_free_tier": true,
   "free_tier": [
     {
-      "resource": "Requests (llama-3.3-70b-versatile)",
-      "limit": "30 requests/min, 1,000 requests/day",
-      "notes": "12,000 tokens/min, 100,000 tokens/day"
-    },
-    {
-      "resource": "Requests (llama-3.1-8b-instant)",
-      "limit": "30 requests/min, 14,400 requests/day",
-      "notes": "6,000 tokens/min, 500,000 tokens/day"
-    },
-    {
-      "resource": "Requests (openai/gpt-oss-120b and gpt-oss-20b)",
-      "limit": "30 requests/min, 1,000 requests/day",
-      "notes": "8,000 tokens/min, 200,000 tokens/day"
+      "resource": "Requests (openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.6-27b, groq/compound, groq/compound-mini, allam-2-7b, whisper-large-v3(-turbo))",
+      "limit": "per-model RPM/RPD/TPM/TPD caps — exact numbers only visible on your own dashboard's Limits page",
+      "type": "perpetual-quota",
+      "notes": "llama-3.3-70b-versatile and llama-3.1-8b-instant, previously listed here, are GONE as of 2026-08-17 — confirmed both by GET /openai/v1/models (not in the returned catalog) and by the official rate-limits doc page (not mentioned; that page also stopped publishing a static numbers table and now points to /settings/limits, which requires login)."
     }
   ],
   "credit_card_required": false,
-  "verified_at": "2026-08-15",
+  "verified_at": "2026-08-17",
   "sources": [
     "https://console.groq.com/docs/rate-limits",
-    "https://groq.com/pricing",
-    "https://tokenmix.ai/blog/groq-free-tier-limits-2026"
+    "https://api.groq.com/openai/v1/models (authenticated GET, 2026-08-17)"
   ],
-  "confidence": "high",
-  "notes": "Perpetual free tier (not a time-limited trial or one-time credits). Limits are published per model, not one universal bucket; you hit whichever cap (RPM/RPD/TPM/TPD) comes first. Limits apply at the organization level, not per user or API key. Cached tokens do not count toward rate limits. Signup at console.groq.com via email/Google with no credit card (card requirement not stated on official page; corroborated by third-party sources — treat as likely but unofficial). Upgrade path is the paid Developer plan for higher limits."
+  "confidence": "medium",
+  "notes": "Perpetual free tier still exists (no card required to sign up, verified 2026-08-17). What changed since the 2026-08-15 entry: the model lineup rotated — llama-3.3-70b-versatile and llama-3.1-8b-instant were removed, and the docs page no longer publishes a static RPM/RPD/TPM/TPD table inline (it now links to an authenticated /settings/limits page per account). Confidence dropped from high to medium because the exact numeric limits can no longer be independently verified without a logged-in session; only the model list and card-free signup are confirmed. Current active models per the API: qwen/qwen3.6-27b, openai/gpt-oss-120b, openai/gpt-oss-20b, openai/gpt-oss-safeguard-20b, groq/compound, groq/compound-mini, allam-2-7b, meta-llama/llama-prompt-guard-2-22m/-86m, whisper-large-v3, whisper-large-v3-turbo, canopylabs/orpheus-v1-english, canopylabs/orpheus-arabic-saudi."
 }
