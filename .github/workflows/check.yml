@@ -39,3 +39,31 @@ jobs:
                 --body "These records need re-verification against official pricing pages:"$'\n\n```\n'"$STALE"$'\n```'
             fi
           fi
+  dead-links:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # A 403/429/timeout only means the check couldn't confirm the page —
+      # bot walls on pricing pages are routine. Only a real 404/410 means
+      # nobody can verify or correct that entry until the URL is fixed, so
+      # only DEAD opens an issue; this job never fails the run.
+      - name: flag dead pricing URLs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          OUTPUT=$(node lib.js check-urls)
+          set -e
+          DEAD=$(echo "$OUTPUT" | grep '^DEAD ' || true)
+          if [ -n "$DEAD" ]; then
+            if [ -z "$(gh issue list --label dead-link --state open --json number --jq '.[0]')" ]; then
+              gh label create dead-link --color D93F0B --force
+              gh issue create --title "Dead pricing URLs (404/410)" \
+                --label dead-link \
+                --body "These pricing_url values returned 404/410 and need a corrected link:"$'\n\n```\n'"$DEAD"$'\n```'
+            fi
+          fi

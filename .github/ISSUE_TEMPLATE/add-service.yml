@@ -1,0 +1,68 @@
+name: Add a service
+description: Suggest a service with a free tier worth tracking
+title: "[add] "
+labels: [new-service]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A blog post saying "X has a free tier" is a lead to go verify, not a
+        source — please check the vendor's own pricing page before filing this.
+  - type: input
+    id: service
+    attributes:
+      label: Service name
+      placeholder: Example Cloud
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official pricing URL
+      placeholder: https://example.com/pricing
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - compute
+        - hosting
+        - database
+        - storage
+        - llm-api
+        - ci
+        - vector
+        - auth
+        - email
+        - observability
+        - ml-compute
+        - other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: allowance
+    attributes:
+      label: Free allowance
+      description: What you get, as specific as the pricing page states it
+      placeholder: "100,000 requests/month, resets monthly"
+    validations:
+      required: true
+  - type: dropdown
+    id: card
+    attributes:
+      label: Credit card required?
+      options:
+        - "No"
+        - "Yes"
+        - "Not sure"
+    validations:
+      required: true
+  - type: input
+    id: checked-date
+    attributes:
+      label: Date you checked
+      placeholder: "2026-08-18"
+    validations:
+      required: true

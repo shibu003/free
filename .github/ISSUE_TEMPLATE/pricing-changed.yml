@@ -1,0 +1,49 @@
+name: Pricing changed
+description: A service's free tier no longer matches what's in data/
+title: "[pricing] "
+labels: [pricing-change]
+body:
+  - type: input
+    id: service
+    attributes:
+      label: Service
+      description: The service id (matches the filename in data/services/)
+      placeholder: groq
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official pricing URL
+      description: The page you checked — must be the vendor's own site, not a blog or aggregator
+      placeholder: https://console.groq.com/docs/rate-limits
+    validations:
+      required: true
+  - type: textarea
+    id: what-changed
+    attributes:
+      label: What changed?
+      description: Old value vs. new value, as specifically as you can
+      placeholder: |
+        Old: 30 requests/min, 1,000 requests/day
+        New: rate limits require login to view, no longer published inline
+    validations:
+      required: true
+  - type: input
+    id: checked-date
+    attributes:
+      label: Date you checked
+      placeholder: "2026-08-18"
+    validations:
+      required: true
+  - type: dropdown
+    id: card
+    attributes:
+      label: Credit card required?
+      options:
+        - "No change"
+        - "Now required (was not)"
+        - "No longer required (was)"
+        - "Not sure"
+    validations:
+      required: true

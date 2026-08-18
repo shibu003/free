@@ -15,26 +15,31 @@
     {
       "resource": "Requests",
       "limit": "5/min",
-      "notes": ""
+      "type": "trial-credit",
+      "notes": "Only available while $5 trial credit is active — see the Trial credits row."
     },
     {
       "resource": "Tokens",
       "limit": "30,000/min",
-      "notes": ""
+      "type": "trial-credit",
+      "notes": "Only available while $5 trial credit is active — see the Trial credits row."
     },
     {
       "resource": "Tokens (daily)",
       "limit": "1,000,000/day",
-      "notes": ""
+      "type": "trial-credit",
+      "notes": "Only available while $5 trial credit is active — see the Trial credits row."
     },
     {
       "resource": "Models",
       "limit": "All Cerebras-powered models",
-      "notes": ""
+      "type": "trial-credit",
+      "notes": "Only available while $5 trial credit is active — see the Trial credits row."
     },
     {
       "resource": "Trial credits",
       "limit": "$5 one-time, expires 30 days after grant",
+      "type": "trial-credit",
       "notes": "Requires a verified payment method to receive; after credits are used/expired, API and Playground access stop until credits are purchased"
     }
   ],

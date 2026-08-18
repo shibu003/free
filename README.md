@@ -17,9 +17,10 @@ Big lists like free-for.dev tell you a free tier *exists*, across thousands of s
 | [Cerebras Cloud](https://www.cerebras.ai/pricing) | **none** | yes | 2026-08-15 |
 | [Cohere](https://cohere.com/pricing) | Chat: 20 requests/min per model; Embed: 2,000 inputs/min; Rerank: 10 requests/min; Monthly cap: 1,000 API calls/month | ? | 2026-08-15 |
 | [Google Gemini API](https://ai.google.dev/gemini-api/docs/pricing) | API tokens (input & output): Free on eligible models (Gemini 3.7 Flash, 3.6 Flash, 3.5 Flash / Flash-Lite, 3.1 Flash-Lite, 3 Flash Preview, 2.5 Pro / Flash / Flash-Lite, 2.0 Flash / Flash-Lite (deprecated), Live/TTS/Native Audio previews, Lyria 3, Gemini Embedding / Embedding 2, Robotics ER previews, Gemma 4), subject to per-model rate limits; Google Search grounding: 500 requests/day (shared between Flash and Flash-Lite); Google AI Studio (web UI): Free of charge in all available regions | no | 2026-08-15 |
-| [Groq API](https://console.groq.com/docs/rate-limits) | Requests (llama-3.3-70b-versatile): 30 requests/min, 1,000 requests/day; Requests (llama-3.1-8b-instant): 30 requests/min, 14,400 requests/day; Requests (openai/gpt-oss-120b and gpt-oss-20b): 30 requests/min, 1,000 requests/day | no | 2026-08-15 |
+| [Groq API](https://console.groq.com/docs/rate-limits) | Requests (openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.6-27b, groq/compound, groq/compound-mini, allam-2-7b, whisper-large-v3(-turbo)): per-model RPM/RPD/TPM/TPD caps — exact numbers only visible on your own dashboard's Limits page | no | 2026-08-17 |
 | [Hugging Face](https://huggingface.co/pricing) | Inference Providers credits: $0.10/month; Spaces hardware: CPU Basic 2 vCPU / 16 GB RAM, free; Spaces GPU: ZeroGPU available free | ? | 2026-08-15 |
 | [OpenRouter](https://openrouter.ai/docs/api/reference/limits) | Free-model requests (no credits purchased): 50 requests/day; Free-model requests (after buying $10+ credits): 1,000 requests/day; Free-model request rate: 20 requests/minute | no | 2026-08-15 |
+| [Z.ai (Zhipu)](https://docs.z.ai/guides/overview/pricing) | Models: GLM-4.7-Flash, GLM-4.5-Flash (text), GLM-4.6V-Flash (vision); Rate limits: not published | no | 2026-08-17 |
 
 ### vector
 
@@ -130,8 +131,6 @@ Or in any MCP client config:
 }
 ```
 
-Tools: `list_services` (by category), `get_free_tier` (one full record), `find_free` (keyword search, e.g. `"postgres"`, `"no credit card"`).
-
 Tools: `list_services(category?)` · `get_free_tier(service)` · `find_free(query)` — e.g. `find_free("postgres no credit card")`.
 
 ## Data format
@@ -157,7 +156,7 @@ One file per service, schema-validated in CI:
 
 ## Contributing
 
-Found a changed limit? Edit the JSON, bump `verified_at`, link the official source. CI validates the schema and regenerates the table (`node lib.js validate && node lib.js readme`).
+Found a changed limit, a new service worth tracking, or wrong data? See [CONTRIBUTING.md](CONTRIBUTING.md) — no code required, a JSON edit and a source link is a full contribution.
 
 ## Disclosure
 
